@@ -1,0 +1,2107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//catrepairwoman.com/analytics/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '2']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Matomo Tag Manager -->
+  <script>
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+    (function() {
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src='https://catrepairwoman.com/analytics/js/container_9TpZYjpg.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Tag Manager -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cat Food Calculator • Cat Repairwoman</title>
+  <meta property="og:image" content="logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="Find the right amount to feed your cat at any life stage. Wet & dry food calculator with cups/Tbsp or grams.">
+  <meta property="og:title" content="Cat Food Calculator • Cat Repairwoman">
+  <meta name="description" content="Find the right amount to feed your cat at any life stage. Wet & dry food calculator with cups/Tbsp or grams. Cat Repairwoman." />
+  <link rel="preload" as="image" href="logo.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#0f172a">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- External CSS (extracted non-critical styles) -->
+  <link rel="preload" href="extra.css" as="style">
+  <link rel="stylesheet" href="extra.css">
+
+  <style>
+.font-head{font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+
+    :root{
+      --bg:#ffffff; --fg:#111827; --muted:#6b7280; --card:#f8fafc; --border:#e5e7eb; --brand:#0f172a; --ok:#10b981; --warn:#f59e0b;
+      --input-bg:#eff6ff; --factor-bg:#f3f4f6; --result-border:#86efac; --radius:16px; --shadow:0 6px 24px rgba(0,0,0,.06);
+    }
+    
+    
+    *{box-sizing:border-box}
+    html{font-size:16px}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--fg);background:var(--bg)}
+    a{color:#2563eb;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:860px;margin:0 auto;padding:20px}
+    .brand {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      gap: 18px;
+      width: 100%;
+    }
+    .brand img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0;
+      box-shadow: var(--shadow);
+      background: #fff;
+      flex-shrink: 0;
+    }
+    .brand-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 4px;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      margin-bottom: 18px;
+      padding-bottom: 10px;
+      position: relative;
+    }
+    .brand h1{text-align:left}
+    .brand .sub{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:8px}
+    h1{font-size:2.2rem;margin:0;font-weight:700;letter-spacing:.01em}
+    h1,.section-title,label{font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .section-title{font-weight:700}
+    label{font-weight:600}
+    .step1-grid{display:grid;grid-template-columns:1fr 160px;gap:12px;align-items:start}
+    .step1-fields{display:grid;gap:10px}
+    @media(max-width:720px){.step1-grid{grid-template-columns:1fr}}
+    .unit-row{display:grid;grid-template-columns:1fr 200px;gap:10px}
+    /* Compact single-line grouped controls for Step 4 */
+    .measure-group{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);border-radius:14px;padding:8px 12px;background:#fff}
+    .measure-group:focus-within{border-color:#60a5fa;box-shadow:0 0 0 3px rgba(96,165,250,.25)}
+    .measure-group .per{color:var(--muted);font-size:.95rem;margin:0}
+    .measure-group input,.measure-group select{border:none;background:transparent;padding:6px 8px;font-size:1rem}
+    .measure-group .kcal{box-shadow:inset -1px 0 0 var(--border);padding-right:12px;margin-right:4px;text-align:right}
+    .measure-group select{flex:0 0 auto;width:auto;min-width:64px;max-width:120px;border:1px solid var(--border);border-radius:10px;background:#f8fafc}
+    .measure-group input:focus,.measure-group select:focus{outline:none;box-shadow:none}
+    .measure-group.required-ring{border-color:#f59e0b;box-shadow:0 0 0 3px rgba(245,158,11,.25)}
+    #foodTypeGroup {
+      max-width: 420px;
+      min-width: 100px;
+      width: 100%;
+      margin-bottom: 18px;
+    }
+    #foodTypeGroup select {
+      width: 100%;
+      min-width: 100px;
+      max-width: 420px;
+      background: transparent;
+      border: none;
+      font-size: 1.13rem;
+      font-family: inherit;
+      padding: 8px 10px;
+    }
+    /* Highlight the specific kcal input when required */
+    .measure-group input.required-input{
+      border:1px solid #f59e0b !important;
+      background:#fff7ed;
+      border-radius:10px;
+      box-shadow:0 0 0 2px rgba(245,158,11,.18);
+    }
+    .measure-row label{margin-bottom:6px}
+    .inline-measure{display:grid;grid-template-columns:minmax(72px,1fr) auto minmax(80px,max-content);align-items:center;column-gap:6px}
+    .per{color:var(--muted);font-size:.95rem;white-space:nowrap;margin:0 2px}
+    @media(max-width:720px){
+      .inline-measure{grid-template-columns:minmax(56px,1fr) auto minmax(68px,max-content);column-gap:4px}
+      .inline-measure input,.inline-measure select{padding:6px 8px;font-size:.95rem}
+      .per{margin:0 1px;font-size:.9rem}
+      .measure-group{width:100%}
+    }
+    .w-num{max-width:none;width:100%;min-width:0}
+    .w-unit{max-width:none;width:100%;min-width:0}
+    .kcal{max-width:110px}
+    @media(max-width:720px){.kcal{max-width:92px}}
+    .row.two.align-end{align-items:end}
+    @media(max-width:720px){.unit-row{grid-template-columns:1fr 1fr}}
+    .weight-hint{display:none;margin-top:0}
+    .sub{color:var(--muted);font-size:1.05rem}
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      margin: 0 0 16px 0;
+      flex-wrap: wrap;
+    }
+    @media (max-width: 720px) {
+      .toolbar {
+        flex-direction: row;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 10px;
+        align-items: center;
+      }
+      .toolbar .btn {
+        width: auto;
+        min-width: 64px;
+      }
+    }
+    .btn {
+      background: linear-gradient(180deg, #ffb37a 0%, #ff914d 90%);
+      color: #fff;
+      border: 2px solid #ff914d;
+      border-radius: 12px;
+      padding: 9px 16px;
+      cursor: pointer;
+      font-size: .98rem;
+      font-weight: 600;
+      box-shadow: 0 2px 10px 0 rgba(255,145,77,0.12), 0 1.5px 0 #c96523;
+      transition: box-shadow 0.14s, transform 0.12s, background 0.16s;
+      will-change: box-shadow, transform;
+      min-height: 46px;
+      min-width: 64px;
+    }
+    .btn:active, .btn:focus-visible {
+      outline: none;
+      box-shadow: 0 2px 14px 0 rgba(255,145,77,0.20), 0 2px 0 #c96523;
+      background: linear-gradient(180deg, #ff914d 10%, #ffb37a 100%);
+    }
+    .btn:hover, .btn:focus-visible {
+      background: linear-gradient(180deg, #ffab64 0%, #ff914d 100%);
+      box-shadow: 0 5px 22px 0 rgba(255,145,77,0.24), 0 3px 0 #c96523;
+      transform: translateY(-2px) scale(1.03);
+    }
+    /* Flat purple button style for .btn.purple and toolbar buttons */
+    .btn.purple,
+    .toolbar .btn.purple {
+      background: #a78bfa;
+      color: #fff;
+      border: 2px solid #7c3aed;
+      border-radius: 16px;
+      font-size: 1.01rem;
+      min-height: 46px;
+      min-width: 64px;
+      box-shadow: none;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .btn.purple:active,
+    .btn.purple:focus-visible,
+    .toolbar .btn.purple:active,
+    .toolbar .btn.purple:focus-visible {
+      background: #7c3aed;
+      color: #fff;
+      border-color: #7c3aed;
+      box-shadow: none;
+      outline: none;
+    }
+    .btn.purple:hover,
+    .toolbar .btn.purple:hover {
+      background: #7c3aed;
+      color: #fff;
+      border-color: #7c3aed;
+      box-shadow: none;
+    }
+    @media (max-width: 720px) {
+      .btn.purple,
+      .toolbar .btn.purple {
+        font-size: 1.08rem;
+        min-height: 46px;
+        min-width: 64px;
+      }
+    }
+    /* Consolidated print styles */
+    @media print {
+      /* Base font/background */
+      html { font-size: 11px; }
+      body { background: #fff !important; }
+
+      /* Hide non-print content */
+      header, #step1, #step2, #step3, #step4, #step5, .toolbar, .btn, .illustration, details {
+        display: none !important;
+      }
+
+      /* Show Step 6 content and branding */
+      #step6 {
+        display: block !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+        border: none !important;
+        page-break-after: avoid;
+      }
+      #printBranding { display: flex !important; }
+
+      /* Neutralize colors/borders for readability */
+      body,
+      .card,
+      .banner,
+      .note,
+      .feedline,
+      .feedline span,
+      .section-title,
+      .feedheading,
+      #feedLine,
+      #lossNote,
+      .pillbar,
+      .pill {
+        background: #fff !important;
+        color: #111 !important;
+        border: none !important;
+        box-shadow: none !important;
+      }
+      .goal-var,
+      .plan-var,
+      .cat-var,
+      .cal-var,
+      .cal-var-blue {
+        color: #111 !important;
+        font-weight: 700 !important;
+      }
+
+      /* Layout tweaks */
+      .wrap { padding: 0 !important; max-width: none !important; }
+      .card { background:#fff; box-shadow:none; border-color:#d1d5db; padding:8px }
+      .stack { gap: 6px }
+      .section-title { margin-bottom: 6px }
+      .row { gap: 6px }
+      .out { font-size: 0.95rem }
+      .pillbar { gap: 4px; display: none }
+      .pill { padding: 4px 8px }
+      a[href]:after { content: "" }
+      #feedPlanHeading:empty { display: none }
+      #feedPlanList:empty { display: none }
+      section { break-inside: avoid }
+
+      /* Chips visibility on print */
+      #step6Chip { display: none !important; }
+      #resultChip { display: inline-block !important; }
+
+      /* Preserve color adjustments where supported */
+      #step6 * {
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+    @media screen {
+      #printBranding { display: none !important; }
+    }
+    .stack{display:grid;gap:12px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
+    .card.input{background:var(--input-bg)}
+    .card.factor{background:var(--factor-bg)}
+    .card.result{background:#fff;border-left:6px solid var(--result-border)}
+    .section-title{display:flex;align-items:center;gap:10px;font-size:1.05rem;margin:0 0 10px}
+    .step{color:#111;background:#fde68a;border-radius:999px;padding:2px 10px;font-size:.88rem;border:1px solid #fbbf24;white-space:nowrap}
+    .badge{display:inline-block;border-radius:999px;font-size:.72rem;line-height:1;border:1px solid var(--border);padding:4px 8px;margin-left:8px;color:#374151}
+    .badge.input{background:#dbeafe;border-color:#bfdbfe}
+    .badge.factor{background:#e5e7eb;border-color:#d1d5db}
+    .badge.result{background:#dcfce7;border-color:#86efac;color:#065f46}
+    /* Editable inputs get a subtle blue hint */
+    .card.input input, .card.input select{border-color:#bfdbfe;background:#ffffff}
+    .card.input input:focus, .card.input select:focus{outline:none;border-color:#60a5fa;box-shadow:0 0 0 3px rgba(96,165,250,.25)}
+    .required-ring{border-color:#f59e0b !important; box-shadow:0 0 0 3px rgba(245,158,11,.25) !important}
+    /* Calculated/output fields */
+    input.calc[readonly]{background:#f3f4f6;border-color:#e5e7eb;color:#111;cursor:default}
+    .note{color:var(--muted);font-size:.92rem}
+    label{display:block;font-size:.92rem;margin:10px 0 6px}
+    input,select{width:100%;padding:10px;border:1px solid var(--border);border-radius:12px;background:#fff;font-size:1rem}
+    input:focus-visible,select:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(96,165,250,.25);border-color:#60a5fa}
+    input[type=number]{appearance:textfield}
+    .row{display:grid;gap:10px}
+    .row.two{grid-template-columns:1fr 1fr}
+    .pillbar{display:flex;flex-wrap:wrap;gap:6px}
+    .pill{background:#fff;border:1px solid var(--border);border-radius:999px;padding:6px 10px;font-size:.9rem}
+    .pill.ok{border-color:#10b981}
+    .pill.yellow{border-color:#f59e0b}
+    .pill.orange{border-color:#fb923c}
+    .pill.red{border-color:#ef4444}
+    /* color families */
+    .pill.weight{background:#ecfeff;border-color:#99f6e4}
+    .pill.rer{background:#eef2ff;border-color:#c7d2fe}
+    .pill.factor{background:#f3e8ff;border-color:#e9d5ff}
+    .pill.mer{background:#fff7ed;border-color:#fed7aa}
+    .pill.wet{background:#dbeafe;border-color:#bfdbfe}
+    .pill.dry{background:#fef3c7;border-color:#fde68a}
+    .pill.total{background:#dcfce7;border-color:#86efac}
+    .out{font-size:1.02rem;line-height:1.5;white-space:pre-wrap}
+    .illustration{max-width:120px;width:100%;height:auto;border-radius:14px;float:right;margin:0 0 8px 12px}
+    .hero-cat{max-width:140px;border-radius:18px;margin:0 0 8px 12px}
+    @media(max-width:720px){ .illustration{display:none} .sub svg{display:none} }
+    @media (max-width: 600px) {
+      .brand {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .brand-title {
+        align-items: center !important;
+        text-align: center !important;
+        width: 100% !important;
+      }
+      .brand-title h1 {
+        text-align: center !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+    }
+    .name-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:end}
+    @media(max-width:720px){.name-row{grid-template-columns:1fr 1fr}}
+    .feedline{background:#f6fdfb;border:1px solid #bbf7d0;border-radius:14px;padding:12px 14px;font-size:1.15rem;font-weight:700}
+    .feedline.warn{background:#fef9c3;border-color:#fde68a}
+    /* .feedline::before{content:"";display:inline-block;min-width:1em;margin-right:8px} */
+    /* .feedline[data-state=good]::before{content:"✓";color:#10b981} */
+    .feedline[data-state=warn]::before{content:"!";color:#92400e}
+    .feedline[data-state=incomplete]::before{content:"…";color:#92400e}
+    .feedheading{font-size:1.05rem;font-weight:600;margin:0 0 6px;color:var(--muted)}
+    .summary-list{margin:10px 0 0 18px}
+    .summary-list li{margin:4px 0}
+    .formula{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:#f8fafc;border:1px dashed #d1d5db;border-radius:12px;padding:10px;color:#0f172a}
+    .banner{margin:8px 0 0;padding:10px 12px;border-radius:12px;font-size:.9rem}
+    .banner.kitten{background:#e0f2fe;border:1px solid #93c5fd;color:#0c4a6e}
+    .banner.pregnant{background:#fde2e2;border:1px solid #fecaca;color:#7f1d1d}
+    .banner.loss{background:#fef3c7;border:1px solid #fde68a;color:#92400e}
+    details{margin-top:10px}
+    summary{cursor:pointer;font-weight:600}
+    .factor-table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;border:1px solid var(--border);margin-top:8px}
+    .factor-table th,.factor-table td{padding:8px 10px;border-bottom:1px solid var(--border);text-align:left}
+    .factor-table th{background:#f3f4f6}
+    .toast{position:fixed;display:flex;align-items:center;justify-content:center;gap:8px;left:50%;bottom:20px;transform:translateX(-50%);background:#ff914d;color:#0f172a;padding:10px 14px;border-radius:12px;font-size:.9rem;box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:opacity .25s}
+    .toast.show{opacity:1}
+    .toast.top{top:18px;right:24px;left:auto;bottom:auto;transform:none}
+    .toast-icon{font-size:1rem;line-height:1}
+    .delta-text{font-weight:600;margin-left:8px}
+    .delta-text.ok{color:#10b981}
+    .delta-text.yellow{color:#f59e0b}
+    .delta-text.orange{color:#fb923c}
+    .delta-text.red{color:#ef4444}
+    /* PRINT */
+    /* (consolidated into the single @media print block above) */
+    /* Variable highlight styles */
+    .cat-var { color: #7c3aed; font-weight: 600; }
+    .cal-var { color: #166534; font-weight: 700; }
+    .plan-var { color: #7c3aed; font-weight: 700; }
+    .goal-var { color: #f59e0b; font-weight: 700; }
+    /* Step 6 summary patch styles */
+    .cal-var-blue { color: #7c3aed; font-weight: 700; }
+    .goal-var.goal-maintain { color: #22c55e; font-weight: 700; }
+    .goal-var.goal-change { color: #f5780b; font-weight: 700; }
+    .feedline > div > span,
+    .feedline > div > br { margin-bottom: 8px !important; display: block; }
+    .feedline > div > span:last-child,
+    .feedline > div > br:last-child { margin-bottom: 0 !important; }
+    .feedline-emoji { font-size: 1.5em; vertical-align: middle; }
+    .override-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    @media (max-width: 600px) {
+      .override-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+      }
+    }
+    /* (consolidated into the single @media print block above) */
+    /* (chips toggle consolidated into the single @media print block above) */
+    @media screen {
+      #step6Chip { display: inline-block !important; }
+      #resultChip { display: none !important; }
+    }
+  
+    /* a11y focus-visible patch */
+    a:focus-visible, button:focus-visible, .btn:focus-visible, select:focus-visible {
+      outline: 2px solid #6366f1;
+      outline-offset: 2px;
+      border-radius: 6px;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+    }</style>
+<!-- moved to extra.css -->
+
+<script>
+// helper to mirror required-ring onto parent .measure-group when applied to #foodType
+(function(){
+  try{
+    var ft = document.getElementById('foodType');
+    if(ft){
+      var add = ft.classList.add;
+      var remove = ft.classList.remove;
+      ft.classList.add = function(){
+        for (var i=0;i<arguments.length;i++){
+          if(arguments[i]==='required-ring'){
+            var group = ft.closest('.measure-group');
+            if(group) group.classList.add('required-ring');
+          }
+        }
+        return add.apply(this, arguments);
+      };
+      ft.classList.remove = function(){
+        for (var i=0;i<arguments.length;i++){
+          if(arguments[i]==='required-ring'){
+            var group = ft.closest('.measure-group');
+            if(group) group.classList.remove('required-ring');
+          }
+        }
+        return remove.apply(this, arguments);
+      };
+    }
+  }catch(e){}
+})();
+</script>
+
+
+<script>
+// Matomo debug logger (only logs when ?debug=1 is present)
+(function(){
+  try {
+    var params = new URLSearchParams(location.search);
+    if (!params.has('debug')) return;
+    var originalPush = (window._mtm && window._mtm.push) ? window._mtm.push : null;
+    window._mtm = window._mtm || [];
+    var oldPush = window._mtm.push;
+    window._mtm.push = function(evt){
+      try { console.log('[MTM]', evt); } catch(e) {}
+      return oldPush.apply(this, arguments);
+    };
+    if (originalPush && originalPush !== window._mtm.push) {
+      console.log('[MTM] debug logger installed');
+    }
+  } catch(e){}
+})();
+</script>
+
+</head>
+<body>
+  <div class="wrap">
+    <!-- Vet Mode toggle removed -->
+    <header>
+      <div class="brand">
+        <a href="https://youtube.com/@catrepairwoman" target="_blank" rel="noopener">
+          <img fetchpriority="high" decoding="async" height="80" width="80" src="logo.png" alt="Cat Repairwoman logo">
+        </a>
+        <div class="brand-title">
+          <h1>Cat Food Calculator</h1>
+          <div class="sub">
+            Find the right amount to feed for any life stage
+            <span style="display:inline-flex;align-items:center;gap:6px">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              <a href="https://catrepairwoman.com" target="_blank" rel="noopener">catrepairwoman.com</a>
+            </span>
+            •
+            <span style="display:inline-flex;align-items:center;gap:6px">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2 .6 9.4.6 9.4.6s7.4 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8ZM9.6 15.5V8.5L15.8 12l-6.2 3.5Z"/></svg>
+              <a id="ytLink" href="#" target="_blank" rel="noopener">@catrepairwoman</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="toolbar">
+      <button type="button" class="btn purple" id="resetBtn" title="Reset to defaults" aria-label="Reset to defaults">Reset</button>
+      <button type="button" class="btn purple" id="vetModeBtn" title="Show all steps" aria-label="Toggle vet mode, show all steps">Show all steps</button>
+    </div>
+
+    <main class="stack">
+      <!-- STEP 1 -->
+      <section class="card input" id="step1">
+        <h2 class="section-title"><span class="step">Step 1</span> Tell me about your cat <span class="badge input">INPUT</span></h2>
+        <div class="step1-grid">
+          <div class="step1-fields">
+            <div class="name-row">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" placeholder="e.g., Chonkster" />
+              </div>
+              <div>
+                <label for="weightInput">Current Weight</label>
+                <div class="row two">
+                  <input id="weightInput" type="number" inputmode="decimal" value="" min="0" step="0.1" />
+                  <select id="weightUnit">
+                    <option value="lb" selected>lbs</option>
+                    <option value="kg">kg</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div id="weightHint" class="note weight-hint"></div>
+            <div class="row two">
+              <div>
+                <label for="lifeStage">Life Stage</label>
+                <select id="lifeStage">
+                  <option value="">-- Select --</option>
+                  <option value="neutered_adult">Neutered Adult</option>
+                  <option value="intact_adult">Intact Adult</option>
+                  <option value="kitten">Growing Kitten</option>
+                  <option value="pregnant">Pregnant</option>
+                </select>
+              </div>
+              <div>
+                <label for="activity">Activity Level</label>
+                <select id="activity">
+                  <option value="">-- Select --</option>
+                  <option value="inactive">Inactive/Obese Prone</option>
+                  <option value="active">Active</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <img decoding="async" loading="lazy" class="illustration hero-cat" src="cat.png" alt="Cute cat" />
+        </div>
+      </section>
+
+      <!-- STEP 2: BCS -->
+      <section class="card input" id="step2" style="display:none">
+        <img decoding="async" loading="lazy" class="illustration" src="Kara-Pointing-Left-Cartoon.png" alt="Veterinarian pointing" />
+        <h2 class="section-title"><span class="step">Step 2</span> Body Condition Score (BCS) <span class="badge input">INPUT</span></h2>
+        <div>
+          <label for="bcs">Enter <span id="bcsName">Your cat</span>'s BCS</label>
+          <select id="bcs">
+            <option value="1">1 • Emaciated</option>
+            <option value="2">2 • Very Thin</option>
+            <option value="3">3 • Thin</option>
+            <option value="4">4 • Underweight</option>
+            <option value="5">5 • Ideal</option>
+            <option value="6">6 • Slightly Overweight</option>
+            <option value="7">7 • Overweight</option>
+            <option value="8">8 • Obese</option>
+            <option value="9">9 • Severely Obese</option>
+          </select>
+          <div class="note" style="margin-top:32px">How to score BCS: <a href="https://www.petobesityprevention.org/catbcs" target="_blank" rel="noopener">petobesityprevention.org/catbcs</a></div>
+        </div>
+      </section>
+
+      <!-- STEP 3: FACTOR + RER/MER -->
+      <section class="card factor" id="step3" style="display:none">
+        <div id="factorBanner" class="banner" style="display:none"></div>
+        <h2 class="section-title"><span class="step">Step 3</span> 🧮 Daily Calorie Needs<span class="badge factor">MATH</span></h2>
+        <details>
+          <summary>Show detailed calculation and factor breakdown</summary>
+          <div id="merPillbar" class="pillbar" style="margin-top:12px"></div>
+          <div class="note"><strong>Formula used:</strong></div>
+          <div class="formula">
+            RER = 70 × (weight in kg^0.75)<br>
+            MER = RER × Life Stage Factor
+          </div>
+          <div class="note" style="margin-top:6px">RER: Resting Energy Requirement • MER: Maintenance Energy Requirement</div>
+          <div class="pillbar" id="kpiRer" style="margin-top:10px"></div>
+          <details>
+            <summary>Show factor reference table</summary>
+            <table class="factor-table" aria-label="Life stage factors">
+              <thead>
+                <tr><th>Nutritional assessment</th><th>Factor</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Neutered adult</td><td>1.2</td></tr>
+                <tr><td>Intact adult</td><td>1.4</td></tr>
+                <tr><td>Inactive/obese prone</td><td>1.0</td></tr>
+                <tr><td>Weight loss (High BCS)</td><td>0.8</td></tr>
+                <tr><td>Pregnant</td><td>2.0</td></tr>
+                <tr><td>Growing kitten</td><td>2.5</td></tr>
+              </tbody>
+            </table>
+          </details>
+        </details>
+      </section>
+
+      <!-- STEP 4: LABELS -->
+      <section class="card input" id="step4" style="display:none">
+        <img decoding="async" loading="lazy" class="illustration" src="cat-food-wet-dry-cartoon.png" alt="Cat food can and bag" />
+        <h2 class="section-title"><span class="step">Step 4</span> Calories Listed on Cat Food Label(s) <span class="badge input">INPUT</span></h2>
+        <!-- Food type question -->
+        <label for="foodType">Does <span id="catName4">your cat</span> eat wet, dry, or both?</label>
+        <div id="foodTypeGroup" class="measure-group required-ring">
+          <select id="foodType">
+            <option value="">-- Select --</option>
+            <option value="both">Both Wet & Dry</option>
+            <option value="wet">Wet Only</option>
+            <option value="dry">Dry Only</option>
+          </select>
+        </div>
+<div id="step4Notes" style="display:none">
+  <div class="note">Enter the calories (kcal) per unit of measure (can, cup, etc) listed on the food labels.</div>
+  <div class="note">Note: calories and kcal are interchangeable terms.</div>
+</div>
+        <div id="wetInputBlock">
+          <label for="wetKcal">Wet Food</label>
+          <div id="wetGroup" class="measure-group">
+            <input id="wetKcal" class="kcal" type="number" inputmode="decimal" step="1" autocomplete="off" aria-describedby="step4Notes" />
+            <span class="per">kcal per</span>
+            <select id="wetUnit">
+              <option value="can" selected>can</option>
+              <option value="pouch">pouch</option>
+            </select>
+          </div>
+        </div>
+        <div id="dryInputBlock">
+          <label for="dryKcal">Dry Food</label>
+          <div id="dryGroup" class="measure-group">
+            <input id="dryKcal" class="kcal" type="number" inputmode="decimal" step="1" autocomplete="off" aria-describedby="step4Notes" />
+            <span class="per">kcal per</span>
+            <select id="dryBasis">
+              <option value="cup" selected>cup</option>
+              <option value="kg">kg</option>
+            </select>
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 5: MEAL PLANNING -->
+      <section class="card input" id="step5" style="display:none">
+        <h2 class="section-title"><span class="step">Step 5</span> Meal Planning <span class="badge input">INPUT</span></h2>
+        <div id="step5Subheading" class="note"></div>
+        <div class="note"><strong>TIP:</strong> Prioritize wet food as it helps cats feel full and usually has fewer calories per volume. <span id="wetTip"></span></div>
+        <!-- Wet food fields -->
+        <div id="step5WetFields" class="row two">
+          <div>
+            <label for="wetAmountSel"><strong>Wet Food (change amounts if needed)</strong></label>
+            <select id="wetAmountSel"></select>
+          </div>
+          <div>
+            <label for="wetUnitsOut">Units</label>
+            <input id="wetUnitsOut" class="calc" value="cans" readonly />
+          </div>
+          <div id="step5DryAmountRow" class="row two" style="display:none;">
+            <div>
+              <label for="dryAmountCalc"><strong>Dry Food Amount</strong></label>
+              <input id="dryAmountCalc" class="calc" readonly />
+            </div>
+            <div>
+              <label for="dryUnitsOut">Units</label>
+              <input id="dryUnitsOut" class="calc" value="cups" readonly />
+            </div>
+          </div>
+        </div>
+        <!-- Dry food fields -->
+        <div id="step5DryFields">
+          <label>Dry Food</label>
+          <input id="dryOut" class="calc" readonly />
+        </div>
+        <div class="row two">
+          <div>
+            <label>Meal Plan Calories</label>
+            <input id="mealPlanKcal" class="calc" readonly />
+          </div>
+          <div>
+            <label>Calorie Target (MER) <span id="merDelta" class="delta-text"></span></label>
+            <input id="merKcal" class="calc" readonly />
+          </div>
+        </div>
+        <div id="step5Warn" class="note" style="color:#b91c1c;font-weight:600;display:none;margin:6px 0 0 0"></div>
+        <div class="override-row" id="step5OverrideContainer" style="display:none; margin-top:10px;">
+          <input type="checkbox" id="step5OverrideCheckbox" style="width:22px; height:22px;">
+          <span style="font-size:1.12rem; font-weight:500;">
+            I have reviewed this plan with my veterinarian. Show the results.
+          </span>
+        </div>
+        <div id="overrideSummaryDiv" style="display:none;margin-top:6px;">
+          <label style="font-size:1rem;font-weight:500;cursor:pointer;">
+            <input type="checkbox" id="overrideSummaryCheckbox" style="margin-right:6px;vertical-align:-2px;">
+            Show summary for this plan anyway.
+          </label>
+        </div>
+        <div class="pillbar" id="kpiDiff" style="margin-top:10px"></div>
+      </section>
+
+      <!-- Print Branding for printout only -->
+      <div id="printBranding" style="display:none; align-items:center; gap:16px; margin-bottom:14px;">
+        <img fetchpriority="high" decoding="async" height="80" width="80" src="logo.png" alt="Cat Repairwoman logo" style="width:56px; height:56px; border-radius:50%; box-shadow:none; background:#fff; display:inline-block;">
+        <div style="font-size:1.03rem; font-weight:600;">
+          <div>Cat Repairwoman</div>
+          <div style="font-size:0.96rem; font-weight:400;">
+            catrepairwoman.com<br>
+            youtube.com/@catrepairwoman
+          </div>
+        </div>
+      </div>
+      <!-- STEP 6: SUMMARY -->
+      <section class="card result" id="step6" style="display:none">
+        <img decoding="async" loading="lazy" class="illustration" src="Kara-thumbs-up-cartoon-1.png" alt="Vet thumbs up" />
+        <h2 class="section-title" id="summaryHeader">
+          <span class="step" id="step6Chip">Step 6</span>
+          Summary and Feeding Plan: <span id="summaryDate"></span>
+          <span class="badge result" id="resultChip">RESULT</span>
+        </h2>
+        <div id="feedHeading" class="feedheading"></div>
+        <div id="feedLine" class="feedline" role="status" aria-live="polite">Enter values above to see the plan.</div>
+        <div id="feedPlanHeading" class="note" style="margin-top:8px"></div>
+        <ul id="feedPlanList" class="summary-list"></ul>
+        <div id="lossNote" class="note" style="font-size:1.15rem;font-weight:700;color:#3a342f;background:#fff7ed;border-radius:10px;border:1px solid #fdba74;padding:10px 16px;margin-top:18px;margin-bottom:10px;display:block;"></div>
+        <ul id="summaryList" class="summary-list"></ul>
+        <div class="note" style="font-size:1.08rem;font-weight:600;color:#3a342f;background:#fef3c7;border-radius:10px;border:1px solid #fde68a;padding:10px 16px;margin-top:12px;display:block;">
+          ❗️ Never reduce food by more than 20% per month. This is a starting point and may need to be adjusted to meet individual metabolism.
+        </div>
+        <div class="note" style="font-size:1.08rem;font-weight:600;color:#3a342f;background:#ede9fe;border-radius:10px;border:1px solid #a78bfa;padding:10px 16px;margin-top:8px;display:block;">
+          👩🏻‍⚕️ Always follow your veterinarian’s guidance.
+        </div>
+        <div class="pillbar" id="kpiPlan" style="margin-top:10px"></div>
+        <div style="display:flex;gap:12px;justify-content:flex-end;margin-top:18px;">
+          <button type="button" class="btn purple" id="copyBtn" title="Copy the summary line" aria-label="Copy summary to clipboard">Copy summary</button>
+          <button type="button" class="btn purple" id="shareBtn" title="Copy a link with the current values" aria-label="Copy shareable link">Share link</button>
+          <button type="button" class="btn" id="printBtn" title="Print page" aria-label="Print plan">Print</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+<script>
+// Step 5 override summary logic
+(function(){
+  // --- Step 5 override summary logic ---
+  const overrideSummaryDiv = document.getElementById('overrideSummaryDiv');
+  const overrideSummaryCheckbox = document.getElementById('overrideSummaryCheckbox');
+  let overrideSummaryChecked = false;
+
+  if (overrideSummaryCheckbox) {
+    overrideSummaryCheckbox.addEventListener('input', function() {
+      overrideSummaryChecked = !!overrideSummaryCheckbox.checked;
+      updateStepVisibility();
+      calcAll();
+    });
+  }
+
+  // --- Step 5: Plan override for vet-reviewed cases (for any warn/critical) ---
+  const step5OverrideContainer = document.getElementById('step5OverrideContainer');
+  const step5OverrideCheckbox = document.getElementById('step5OverrideCheckbox');
+  let step5OverrideChecked = false;
+
+  if (step5OverrideCheckbox) {
+    step5OverrideCheckbox.addEventListener('input', function() {
+      step5OverrideChecked = !!step5OverrideCheckbox.checked;
+      updateStepVisibility();
+      calcAll();
+    });
+  }
+  const YT_URL = 'https://youtube.com/@catrepairwoman';
+  let PROGRESSIVE_MODE = true;
+  const SETTINGS = {
+    // Set to true for classic step-by-step, false for "vet mode" (all steps visible)
+    PERCENT_MARGIN: 0.01,      // 1% of MER allowed variance
+    MIN_MARGIN_KCAL: 5,        // At least ±5 kcal allowed, even if <1% of MER
+    WET_INCREMENT: 0.125,      // 1/8th for wet food increments
+    DRY_INCREMENT: 0.25,       // 1/4 cup for dry food increments
+    MAX_WET_UNITS: 5,          // Max wet units in UI
+    MAX_DRY_UNITS: 5           // Max dry units in UI
+  };
+  const ytA = document.getElementById('ytLink'); ytA.href = YT_URL; ytA.textContent = '@catrepairwoman';
+  const $ = id => document.getElementById(id);
+  const els = {
+    name: $('name'), lifeStage: $('lifeStage'), activity: $('activity'), weightUnit: $('weightUnit'), weightInput: $('weightInput'),
+    weightHint: $('weightHint'), bcs: $('bcs'), factorBanner: $('factorBanner'),
+    kpiRer: $('kpiRer'),
+    wetKcal: $('wetKcal'), wetUnit: $('wetUnit'), dryBasis: $('dryBasis'), dryKcal: $('dryKcal'),
+    wetAmountSel: $('wetAmountSel'), wetUnitsOut: $('wetUnitsOut'), dryOut: $('dryOut'),
+    merKcal: $('merKcal'), mealPlanKcal: $('mealPlanKcal'), merDelta: $('merDelta'),
+    kpiDiff: $('kpiDiff'), kpiPlan: $('kpiPlan'), feedLine: $('feedLine'), lossNote: $('lossNote'),
+    shareBtn: $('shareBtn'), copyBtn: $('copyBtn'), printBtn: $('printBtn'), resetBtn: $('resetBtn'),
+    wetGroup:$('wetGroup'), dryGroup:$('dryGroup'),
+    foodType: document.getElementById('foodType'),
+    catName4: document.getElementById('catName4'),
+    wetInputBlock: document.getElementById('wetInputBlock'),
+    dryInputBlock: document.getElementById('dryInputBlock')
+  };
+  // Show/hide wet/dry inputs based on food type selection
+  function updateFoodTypeInputs(){
+    const type = els.foodType.value;
+    const nm = els.name.value && els.name.value.trim() ? els.name.value.trim() : 'your cat';
+    if(els.catName4) els.catName4.textContent = nm;
+    if(type === 'both'){
+      if(els.wetInputBlock) els.wetInputBlock.style.display = '';
+      if(els.dryInputBlock) els.dryInputBlock.style.display = '';
+    } else if(type === 'wet'){
+      if(els.wetInputBlock) els.wetInputBlock.style.display = '';
+      if(els.dryInputBlock) els.dryInputBlock.style.display = 'none';
+    } else if(type === 'dry'){
+      if(els.wetInputBlock) els.wetInputBlock.style.display = 'none';
+      if(els.dryInputBlock) els.dryInputBlock.style.display = '';
+    } else {
+      if(els.wetInputBlock) els.wetInputBlock.style.display = 'none';
+      if(els.dryInputBlock) els.dryInputBlock.style.display = 'none';
+    }
+  }
+
+  function getToast(){
+    let t=document.getElementById('toast');
+    if(!t){ t=document.createElement('div'); t.id='toast'; t.className='toast top'; document.body.appendChild(t); }
+    else { t.classList.add('top'); }
+    return t;
+  }
+  function esc(s){ return String(s||'').replace(/[&<>]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+  function updateRequired() {
+    // Step 1: Name, weight, life stage, activity (only highlight if visible)
+    const step1 = document.getElementById('step1');
+    if (step1 && step1.style.display !== 'none') {
+      [
+        { el: els.name,        val: els.name.value && els.name.value.trim() },
+        { el: els.weightInput, val: Number(els.weightInput.value) },
+        { el: els.lifeStage,   val: els.lifeStage.value },
+        { el: els.activity,    val: els.activity.value },
+      ].forEach(({el, val}) => {
+        if (!val) el.classList.add('required-ring');
+        else el.classList.remove('required-ring');
+      });
+    }
+
+    // Step 2: BCS required highlight
+    const step2 = document.getElementById('step2');
+    if (step2 && step2.style.display !== 'none') {
+      if (!els.bcs.value) els.bcs.classList.add('required-ring');
+      else els.bcs.classList.remove('required-ring');
+    } else {
+      els.bcs.classList.remove('required-ring');
+    }
+
+    // Step 4: Food type and kcal fields (only highlight if step 4 visible)
+    const step4 = document.getElementById('step4');
+    if (step4 && step4.style.display !== 'none') {
+      if(!els.foodType.value) els.foodType.classList.add('required-ring');
+      else els.foodType.classList.remove('required-ring');
+
+      // Only highlight kcal fields if the food type requires them
+      if(els.foodType.value === 'wet' || els.foodType.value === 'both'){
+        if(!Number(els.wetKcal.value)) els.wetKcal.classList.add('required-input');
+        else els.wetKcal.classList.remove('required-input');
+      } else {
+        els.wetKcal.classList.remove('required-input');
+      }
+      if(els.foodType.value === 'dry' || els.foodType.value === 'both'){
+        if(!Number(els.dryKcal.value)) els.dryKcal.classList.add('required-input');
+        else els.dryKcal.classList.remove('required-input');
+      } else {
+        els.dryKcal.classList.remove('required-input');
+      }
+    } else {
+      // If step 4 hidden, remove highlights
+      els.foodType.classList.remove('required-ring');
+      els.wetKcal.classList.remove('required-input');
+      els.dryKcal.classList.remove('required-input');
+    }
+  }
+  function showToast(msg){
+    const t=getToast();
+    t.innerHTML = '<span class="toast-icon">✔</span><span>'+esc(msg)+'</span>';
+    t.classList.add('show');
+    setTimeout(()=>t.classList.remove('show'), 1800);
+  }
+
+  function safeClipboard(text){
+    if(navigator.clipboard && window.isSecureContext){
+      return navigator.clipboard.writeText(text).then(()=>true).catch(()=>false);
+    }
+    return Promise.resolve(false);
+  }
+
+  function lbToKg(lb){ return lb * 0.45359237; }
+  // Improved formatCupsTbsp: outputs decimal cups as "X cup(s) + Y Tbsp" with best fraction
+  function formatCupsTbsp(cupsDecimal) {
+    const cupFractions = [
+      { value: 0.75, label: '3/4' },
+      { value: 2/3, label: '2/3' },
+      { value: 0.5, label: '1/2' },
+      { value: 1/3, label: '1/3' },
+      { value: 0.25, label: '1/4' }
+    ];
+    let cups = Math.floor(cupsDecimal);
+    let rem = cupsDecimal - cups;
+    let bestFrac = null;
+
+    for (const f of cupFractions) {
+      if (rem >= f.value - 0.01) {
+        bestFrac = f;
+        rem -= f.value;
+        break;
+      }
+    }
+    let tbsp = Math.round(rem * 16);
+    if (tbsp > 3) {
+      if (bestFrac) {
+        cups += 1;
+        bestFrac = null;
+        tbsp = 0;
+      } else {
+        bestFrac = cupFractions.find(f => f.value === 0.25);
+        tbsp = 0;
+      }
+    }
+
+    // Build the cup string
+    let cupStr = '';
+    if (cups > 0 || bestFrac) {
+      cupStr += cups > 0 ? cups.toString() : '';
+      if (bestFrac) cupStr += (cups > 0 ? ' ' : '') + bestFrac.label;
+      if (cupStr) cupStr += ' cup' + (((cups > 1) || bestFrac) ? 's' : '');
+      cupStr = cupStr.replace(/^1 cups/, '1 cup'); // grammar fix for "1 cups"
+    }
+
+    // Build the Tbsp string
+    let tbspStr = '';
+    if (tbsp > 0) tbspStr = tbsp + ' Tbsp';
+
+    // Combine
+    if (cupStr && tbspStr) return `${cupStr} + ${tbspStr}`;
+    if (cupStr) return cupStr;
+    if (tbspStr) return tbspStr;
+    return '0 cups';
+  }
+  function kgToLb(kg){ return kg / 0.45359237; }
+  function pow075(x){ return Math.pow(x, 0.75); }
+  function near1(n){ return Math.abs(n - 1) < 0.005; }
+  function fmt(n, d=2){ return Number(n||0).toFixed(d).replace(/\.00$/, ''); }
+  function fmt0(n){ return String(Math.round(Number(n||0))); }
+  function pluralWord(word, n){ if(Math.abs(Number(n)-1) < 0.005) return word; if(/(s|x|z|ch|sh)$/i.test(word)) return word + 'es'; return word + 's'; }
+  function pluralCount(n, word){ return near1(Number(n)) ? word : word + 's'; }
+  function qtr(v){ return Math.round(v/0.25)*0.25; }
+  function cupsText(cups){ return `${fmt(cups)} ${pluralCount(cups,'cup')}`; }
+  function baseDenom(c){
+    const r = c - Math.floor(c);
+    if(Math.abs(r*2 - Math.round(r*2)) < 1e-6) return 2;
+    if(Math.abs(r*3 - Math.round(r*3)) < 1e-6) return 3;
+    if(Math.abs(r*4 - Math.round(r*4)) < 1e-6) return 4;
+    return 12;
+  }
+  function cupsBaseText(c){
+    const whole = Math.floor(c + 1e-9);
+    const rem = c - whole;
+    const eps = 1e-6;
+    let denom = 0, k = 0;
+    if(Math.abs(rem*2 - Math.round(rem*2)) < eps){ denom=2; k=Math.round(rem*2); }
+    else if(Math.abs(rem*3 - Math.round(rem*3)) < eps){ denom=3; k=Math.round(rem*3); }
+    else if(Math.abs(rem*4 - Math.round(rem*4)) < eps){ denom=4; k=Math.round(rem*4); }
+    if(!denom || k===0 || rem<eps){
+      if(whole===0) return '';
+      return `${whole} ${pluralCount(whole,'cup')}`;
+    }
+    const frac = `${k}/${denom}`;
+    const total = whole + k/denom;
+    const word = total===1 ? 'cup' : 'cups';
+    if(whole>0) return `${whole} ${frac} ${word}`;
+    return `${frac} ${word}`;
+  }
+
+  function bestDryForRemainder(kcalRem, basis, density){
+    let dryKcal = 0, phrase = '(none)', used = {cups:0, tbsp:0, grams:0};
+    if(density<=0 || kcalRem<=1) return {dryKcal, phrase, used};
+    if(basis==='kg'){
+      const gramsFloat = kcalRem / density * 1000;
+      const grams = Math.floor(gramsFloat);
+      if(grams>0){ dryKcal = (grams/1000)*density; phrase = `${fmt0(grams)} grams`; used.grams = grams; }
+      return {dryKcal, phrase, used};
+    }
+    // cup basis: search 1/2, 1/3, 1/4 cups + up to 4 Tbsp
+    const cupsFloat = kcalRem / density;
+    let best = null; const maxCups = Math.min(Math.ceil(cupsFloat)+2, 20);
+    const set = new Set(); [2,3,4].forEach(d=>{ const lim=Math.ceil(maxCups*d); for(let n=0;n<=lim;n++) set.add((n/d).toFixed(6)); });
+    const bases = Array.from(set).map(Number).filter(v=>v<=maxCups+1).sort((a,b)=>a-b);
+    for(const base of bases){
+      const dOrder = ({2:0,3:1,4:2})[baseDenom(base)] ?? 3;
+      for(let t=0;t<=4;t++){
+        const total = base + t/16; if(total<0) continue; if(total>maxCups+1) break;
+        const kcal = total * density; const diff = kcal - kcalRem; const abs=Math.abs(diff); const perc = abs / kcalRem;
+        const within = perc <= 0.01;
+        const cand = {base,t,total,kcal,diff,abs,perc,within,dOrder};
+        if(!best){ best=cand; continue; }
+        if(within && !best.within){ best=cand; continue; }
+        if(within && best.within){
+          if(perc < best.perc - 1e-9){ best=cand; continue; }
+          if(Math.abs(perc-best.perc) < 1e-9){
+            if(diff<=0 && best.diff>0){ best=cand; continue; }
+            if((diff<=0)===(best.diff<=0)){
+              if(dOrder < best.dOrder){ best=cand; continue; }
+              if(dOrder===best.dOrder && abs < best.abs - 1e-9){ best=cand; continue; }
+            }
+          }
+          continue;
+        }
+        if(abs < best.abs - 1e-9){ best=cand; continue; }
+        if(Math.abs(abs-best.abs) < 1e-9){ if(diff<=0 && best.diff>0){ best=cand; continue; } if((diff<=0)===(best.diff<=0) && dOrder<best.dOrder){ best=cand; continue; } }
+      }
+    }
+    if(best){
+      dryKcal = best.kcal; used.cups = best.total; used.tbsp = best.t;
+      const cupsPart = cupsBaseText(best.base); const tbspPart = best.t>0 ? (cupsPart?` and ${best.t} Tbsp`:`${best.t} Tbsp`) : '';
+      phrase = cupsPart || tbspPart ? (cupsPart + tbspPart) : '(none)';
+    }
+    return {dryKcal, phrase, used};
+  }
+
+  function suggestMaxWet(mer, wetKcalPer, basis, density){
+    if(!(mer>0) || !(wetKcalPer>0) || !(density>0)) return null;
+    let bestValid=null, bestClose=null;
+    for(let v=5.0; v>=0; v-=0.25){
+      const wetAmt = Number(v.toFixed(2));
+      const wetKcal = wetAmt * wetKcalPer;
+      const kcalRem = mer - wetKcal;
+      let dryKcal=0;
+      if(kcalRem>1){ const r = bestDryForRemainder(kcalRem, basis, density); dryKcal = r.dryKcal; }
+      const meal = wetKcal + dryKcal; const diff = Math.abs(meal - mer); const perc = diff/mer;
+      const cand = {wetAmt, diff, perc};
+      if(perc<=0.01){ bestValid = cand; break; } // maximal because we iterate downward
+      if(!bestClose || perc < bestClose.perc - 1e-9 || (Math.abs(perc-bestClose.perc)<1e-9 && wetAmt>bestClose.wetAmt)) bestClose = cand;
+    }
+    return bestValid || bestClose;
+  }
+
+  function computeFactor(ls, activity, bcs) {
+    // Prioritize kitten/pregnant
+    if (ls === 'kitten') return 2.5;
+    if (ls === 'pregnant') return 2.0;
+    // If BCS > 5, use weight loss
+    if (Number(bcs) > 5) return 0.8;
+    if (activity === 'inactive') return 1.0;
+    if (ls === 'neutered_adult') return 1.2;
+    if (ls === 'intact_adult') return 1.4;
+    return 1.2;
+  }
+
+  function getWeights(){
+    const unit = els.weightUnit.value;
+    const val = Number(els.weightInput.value||0);
+    let lb=0, kg=0;
+    if(unit==='kg'){ kg = val; lb = kgToLb(val); }
+    else { lb = val; kg = lbToKg(val); }
+    // hint removed
+    if(els.weightHint) els.weightHint.textContent = '';
+    return {lb,kg};
+  }
+
+  function setBanner(ls, activity, bcs) {
+    // No-op: the factorBanner is never shown.
+    const banner = els.factorBanner;
+    if (banner) {
+      banner.style.display = 'none';
+    }
+  }
+
+  function bcsDesc(n){
+    n = Number(n)||0;
+    switch(n){
+      case 1: return 'Emaciated';
+      case 2: return 'Very Thin';
+      case 3: return 'Thin';
+      case 4: return 'Underweight';
+      case 5: return 'Ideal';
+      case 6: return 'Slightly Overweight';
+      case 7: return 'Overweight';
+      case 8: return 'Obese';
+      case 9: return 'Severely Obese';
+      default: return '';
+    }
+  }
+
+  function buildCopySummary(){
+    const head   = (document.getElementById('feedHeading')?.textContent || '').trim();
+    const banner = (document.getElementById('feedLine')?.textContent || '').trim();
+    const list   = document.getElementById('feedPlanList');
+    const bullets = [];
+    if(list){
+      Array.from(list.children || []).forEach(li => {
+        const t = (li.textContent || '').trim();
+        if(t) bullets.push(t);
+      });
+    }
+    const loss = (document.getElementById('lossNote')?.textContent || '').trim();
+
+    const parts = [];
+    if(head)   parts.push(head);
+    if(banner) parts.push(banner);
+    if(bullets.length){
+      parts.push('Feeding Plan:');
+      bullets.forEach(b => parts.push('• ' + b));
+    }
+    if(loss) parts.push(loss);
+
+    // Normalize leading/trailing whitespace on each line to avoid indented lines in copied summary
+    return parts
+      .join('\n')
+      .split('\n')
+      .map(function(line){ return line.replace(/^\s+/, '').replace(/\s+$/, ''); })
+      .join('\n');
+  }
+
+// Show/hide wet/dry fields in Step 5 based on food type (Step 4)
+function updateStep5MealPlanningFields() {
+  // Added for Step 5 wet/dry UI logic
+  const type = els.foodType && els.foodType.value ? els.foodType.value : '';
+  const wetFields = document.getElementById('step5WetFields');
+  const dryFields = document.getElementById('step5DryFields');
+  // PATCH: v2.0.1 Step 5 dry mode
+  const dryAmtRow = document.getElementById('step5DryAmountRow');
+  if(type === 'dry') {
+    if(wetFields) wetFields.style.display = 'none';
+    if(dryFields) dryFields.style.display = '';
+    if(dryAmtRow) dryAmtRow.style.display = '';
+  } else {
+    if(dryAmtRow) dryAmtRow.style.display = 'none';
+  }
+  if(type === 'wet') {
+    if(wetFields) wetFields.style.display = '';
+    if(dryFields) dryFields.style.display = 'none';
+  } else if(type === 'dry') {
+    if(wetFields) wetFields.style.display = 'none';
+    if(dryFields) dryFields.style.display = '';
+  } else if(type === 'both') {
+    if(wetFields) wetFields.style.display = '';
+    if(dryFields) dryFields.style.display = '';
+  } else {
+    // Hide both if no food type selected
+    if(wetFields) wetFields.style.display = 'none';
+    if(dryFields) dryFields.style.display = 'none';
+  }
+
+  // PATCH: Show/hide dry food amount dropdown vs. calculated field
+  // Simplified: only toggle the calculated dry amount field; no dropdown is used
+  const dryAmountCalc = document.getElementById('dryAmountCalc');
+  if (dryAmountCalc) {
+    dryAmountCalc.style.display = (type === 'dry') ? '' : 'none';
+  }
+  const subheading = document.getElementById('step5Subheading');
+let foodTypeLabel = '';
+if(type==='wet') foodTypeLabel = 'wet food';
+else if(type==='dry') foodTypeLabel = 'dry food';
+else if(type==='both') foodTypeLabel = 'wet or dry food';
+if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLabel}</strong> you can give (or your cat will eat) to meet the calorie target.`;
+}
+
+  function calcAll(){
+  let planStatus = 'ok'; // for plan validity
+  // PATCH: v2.0.1 Step 5 dry mode
+  // removed unused dryAmountSel reference (no dropdown in DOM)
+  const {lb,kg}=getWeights();
+  const ls=els.lifeStage.value, activity=els.activity.value, bcs=els.bcs.value;
+  const factor = computeFactor(ls,activity,bcs);
+  const rer = kg>0? 70 * pow075(kg) : 0; const mer = rer * factor;
+  setBanner(ls,activity,bcs);
+
+  // STEP 3 KPI chips: always show something (weight required -> orange)
+  if(kg<=0){
+    renderPillbar(els.kpiRer,[{label:'Fill in inputs', value:'weight required', status:'orange'}]);
+  } else {
+    const items=[
+      {label:'Weight', value:`${fmt(kg,2)} kg (${fmt(lb,2)} lb)`, cls:'weight'},
+      {label:'RER', value:`${fmt(rer,0)} kcal/day`, cls:'rer'},
+      {label:'Factor', value:`${fmt(factor,2)}`, cls:'factor'},
+      {label:'MER', value:`${fmt(mer,0)} kcal/day`, cls:'mer'}
+    ];
+    if(!String(els.bcs.value||'')) items.push({label:'Add BCS for precision', value:'', status:'yellow'});
+    renderPillbar(els.kpiRer, items);
+  }
+
+  // STEP 5/6 readiness (needs weight + wet kcal + dry kcal)
+  const foodType = els.foodType && els.foodType.value ? els.foodType.value : '';
+  const wetKcalPer = Number(els.wetKcal.value||0);
+  const dryKcalPer = Number(els.dryKcal.value||0);
+  const basis = els.dryBasis.value;
+  let wetAmt = Number(els.wetAmountSel.value||0);
+  let wetKcal = 0, dryKcalActual = 0, mealPlan = 0;
+  let dryPhrase = '';
+  let usedCups = 0, usedGrams = 0, tbspUsed = 0;
+  let kcalRem = 0;
+  let ready = false;
+
+  // --- STEP 5 logic rewrite for output/clearing ---
+  let diff = 0, dAbs = 0, perc = 0;
+  let planValid = true;
+  // Friendly error messages
+  // Short, action-oriented Step 5 messages
+  const ERR_WET = "Enter wet kcal and amount.";
+  const ERR_DRY = "Enter dry kcal per cup/kg and weight.";
+  const ERR_BOTH_NEG = "Reduce wet amount or kcal per unit.";
+
+  // --- Autofill Step 5 for wet/dry only (auto-calc amount to match MER) ---
+  // (But only if field not manually changed just now; handled by autoFillStep5ForFoodType in event handlers)
+
+  if(foodType === 'wet') {
+    // Required: kg, wetKcalPer
+    ready = kg > 0 && wetKcalPer > 0;
+    // Always use the value the user selected in the dropdown for all calculations and display,
+    // unless it's blank or invalid (NaN or negative)
+    wetAmt = Number(els.wetAmountSel.value||0);
+    if (isNaN(wetAmt) || wetAmt < 0) wetAmt = 0;
+    wetKcal = wetAmt * wetKcalPer;
+    dryKcalActual = 0;
+    mealPlan = wetKcal;
+    dryPhrase = '';
+    kcalRem = 0;
+    // Output logic
+    if (ready && wetAmt > 0 && mealPlan > 0) {
+      els.dryOut.value = '';
+      els.wetUnitsOut.value = pluralWord(els.wetUnit.value, wetAmt);
+      els.mealPlanKcal.value = fmt(mealPlan,0);
+      els.merKcal.value = fmt(mer,0);
+    } else {
+      els.dryOut.value = '';
+      els.wetUnitsOut.value = '';
+      els.mealPlanKcal.value = '';
+      els.merKcal.value = '';
+    }
+    if(document.getElementById('dryAmountCalc')) document.getElementById('dryAmountCalc').value = '';
+    diff = mealPlan - mer;
+    dAbs = Math.abs(diff);
+    perc = mer > 0 ? dAbs / mer : 0;
+    // --- PATCH: Margin validation for meal plan ---
+    if ((dAbs <= SETTINGS.MIN_MARGIN_KCAL) || (perc <= SETTINGS.PERCENT_MARGIN)) {
+      planStatus = 'ok';
+    } else if ((dAbs <= 15) || (perc <= 0.05)) {
+      planStatus = 'warn';
+    } else {
+      planStatus = 'critical';
+    }
+    planValid = (planStatus === 'ok');
+    document.body.setAttribute('data-plan-valid', planValid ? 'true' : 'false');
+  } else if(foodType === 'dry') {
+    // Required: kg, dryKcalPer, lifeStage, activity
+    const hasLifeStage = !!els.lifeStage.value;
+    const hasActivity = !!els.activity.value;
+    ready = kg > 0 && dryKcalPer > 0 && hasLifeStage && hasActivity;
+    let dryAmt = 0;
+    let dryAmtLabel = '';
+    if(ready) {
+      if(basis === 'kg') {
+        dryAmt = mer / dryKcalPer;
+        usedGrams = Math.floor(dryAmt * 1000);
+        dryKcalActual = (usedGrams / 1000) * dryKcalPer;
+        dryPhrase = usedGrams > 0 ? `${fmt0(usedGrams)} grams` : '';
+        document.getElementById('dryUnitsOut').value = 'grams';
+        dryAmtLabel = fmt(dryAmt, 2);
+      } else if(basis === 'cup') {
+        if (dryKcalPer > 0 && mer > 0) {
+          const cupsFloat = mer / dryKcalPer;
+          dryPhrase = formatCupsTbsp(cupsFloat);
+          // Calculate total calories from cups+tbsp
+          dryKcalActual = cupsFloat * dryKcalPer;
+          usedCups = cupsFloat;
+          els.dryOut.value = dryPhrase;
+          if(document.getElementById('dryUnitsOut')) document.getElementById('dryUnitsOut').value = 'cups';
+          dryAmtLabel = cupsFloat > 0 ? fmt(cupsFloat, 2) : '';
+        } else {
+          dryPhrase = '';
+          dryKcalActual = 0;
+          dryAmtLabel = '';
+          els.dryOut.value = '';
+          if(document.getElementById('dryUnitsOut')) document.getElementById('dryUnitsOut').value = '';
+        }
+      }
+      const dryAmountCalcEl = document.getElementById('dryAmountCalc');
+      if (dryAmountCalcEl) dryAmountCalcEl.value = dryAmtLabel;
+      wetKcal = 0;
+      mealPlan = dryKcalActual;
+      kcalRem = 0;
+      if(((basis==='kg' && usedGrams > 0) || (basis==='cup' && usedCups > 0)) && mealPlan > 0) {
+        els.dryOut.value = dryPhrase;
+        els.wetUnitsOut.value = '';
+        els.mealPlanKcal.value = fmt(mealPlan,0);
+        els.merKcal.value = fmt(mer,0);
+      } else {
+        els.dryOut.value = '';
+        els.mealPlanKcal.value = '';
+        els.wetUnitsOut.value = '';
+        els.merKcal.value = '';
+        if(document.getElementById('dryAmountCalc')) document.getElementById('dryAmountCalc').value = '';
+      }
+    } else {
+      if(document.getElementById('dryAmountCalc')) document.getElementById('dryAmountCalc').value = '';
+      els.dryOut.value = '';
+      els.mealPlanKcal.value = '';
+      els.wetUnitsOut.value = '';
+      els.merKcal.value = '';
+    }
+    diff = mealPlan - mer;
+    dAbs = Math.abs(diff);
+    perc = mer > 0 ? dAbs / mer : 0;
+    // --- PATCH: Margin validation for meal plan ---
+    if ((dAbs <= SETTINGS.MIN_MARGIN_KCAL) || (perc <= SETTINGS.PERCENT_MARGIN)) {
+      planStatus = 'ok';
+    } else if ((dAbs <= 15) || (perc <= 0.05)) {
+      planStatus = 'warn';
+    } else {
+      planStatus = 'critical';
+    }
+    if (!ready || ((basis==='kg' && usedGrams <= 0) || (basis==='cup' && usedCups <= 0)) || mealPlan <= 0 || dryKcalPer <= 0 || isNaN(mealPlan)) {
+      planStatus = 'incomplete';
+    }
+    planValid = (planStatus === 'ok');
+    document.body.setAttribute('data-plan-valid', planValid ? 'true' : 'false');
+  } else if(foodType === 'both') {
+    // Required: kg, wetKcalPer, dryKcalPer
+    ready = kg > 0 && wetKcalPer > 0 && dryKcalPer > 0;
+    wetAmt = Number(els.wetAmountSel.value||0);
+    wetKcal = wetAmt * wetKcalPer;
+    kcalRem = mer - wetKcal;
+    // Dry calculation logic
+    let dryAmtNeg = false;
+    if(basis === 'kg'){
+      if(dryKcalPer > 0 && kcalRem > 0){
+        usedGrams = Math.floor(kcalRem / dryKcalPer * 1000);
+        dryKcalActual = (usedGrams/1000) * dryKcalPer;
+        dryPhrase = usedGrams > 0 ? `${fmt0(usedGrams)} grams` : '';
+      } else if (kcalRem < 0) {
+        dryAmtNeg = true;
+        dryPhrase = '';
+      } else {
+        dryPhrase = '';
+      }
+    } else if(basis === 'cup') {
+      if (dryKcalPer > 0 && kcalRem > 0) {
+        const cupsFloat = kcalRem / dryKcalPer;
+        dryPhrase = formatCupsTbsp(cupsFloat);
+        dryKcalActual = cupsFloat * dryKcalPer;
+        usedCups = cupsFloat;
+        els.dryOut.value = dryPhrase;
+        if(document.getElementById('dryUnitsOut')) document.getElementById('dryUnitsOut').value = 'cups';
+      } else if (kcalRem < 0) {
+        dryAmtNeg = true;
+        dryPhrase = '';
+      } else {
+        dryPhrase = '';
+      }
+    }
+    if(kcalRem <= 0 || mer <= 0){
+      dryPhrase = '';
+      dryKcalActual = 0; usedCups = 0; usedGrams = 0; tbspUsed = 0;
+    }
+    mealPlan = wetKcal + dryKcalActual;
+    // Output logic
+    // --- PATCH: allow wet=0 for 'both' mode and dry food to balance to MER ---
+    if(ready) {
+      if(mealPlan > 0 && dryKcalPer > 0 && (wetAmt > 0 || (wetAmt === 0 && dryPhrase && dryPhrase !== ''))) {
+        els.dryOut.value = dryPhrase;
+        els.wetUnitsOut.value = wetAmt > 0 ? pluralWord(els.wetUnit.value, wetAmt) : '';
+        els.mealPlanKcal.value = fmt(mealPlan,0);
+        els.merKcal.value = fmt(mer,0);
+      } else {
+        els.dryOut.value = '';
+        els.wetUnitsOut.value = '';
+        els.mealPlanKcal.value = '';
+        els.merKcal.value = '';
+      }
+      if(document.getElementById('dryAmountCalc')) document.getElementById('dryAmountCalc').value = '';
+    } else {
+      els.dryOut.value = '';
+      els.mealPlanKcal.value = '';
+      els.wetUnitsOut.value = '';
+      els.merKcal.value = '';
+      if(document.getElementById('dryAmountCalc')) document.getElementById('dryAmountCalc').value = '';
+    }
+    diff = mealPlan - mer;
+    dAbs = Math.abs(diff);
+    perc = mer > 0 ? dAbs / mer : 0;
+    // --- PATCH: Margin validation for meal plan ---
+    if ((dAbs <= SETTINGS.MIN_MARGIN_KCAL) || (perc <= SETTINGS.PERCENT_MARGIN)) {
+      planStatus = 'ok';
+    } else if ((dAbs <= 15) || (perc <= 0.05)) {
+      planStatus = 'warn';
+    } else {
+      planStatus = 'critical';
+    }
+    // Validation: allow wet=0 (dry balances), only error if wet food alone exceeds MER
+    if (!ready || mealPlan <= 0 || dryKcalPer <= 0 || isNaN(mealPlan) || isNaN(wetAmt) || (wetAmt < 0)) {
+      planStatus = 'incomplete';
+    } else if (wetAmt > 0 && wetKcal > mer) {
+      planStatus = 'incomplete';
+    } else if (dryAmtNeg) {
+      planStatus = 'incomplete';
+    }
+    planValid = (planStatus === 'ok');
+    document.body.setAttribute('data-plan-valid', planValid ? 'true' : 'false');
+  } else {
+    // No food type selected or inputs missing -- clear fields, don't show N/A by default
+    ready = false;
+    wetKcal = 0; dryKcalActual = 0; mealPlan = 0; dryPhrase = ''; kcalRem = 0;
+    els.dryOut.value = '';
+    els.wetUnitsOut.value = '';
+    if(document.getElementById('dryAmountCalc')) document.getElementById('dryAmountCalc').value = '';
+    els.mealPlanKcal.value = '';
+    els.merKcal.value = '';
+    planValid = false;
+    planStatus = 'incomplete';
+    document.body.setAttribute('data-plan-valid', 'false');
+  }
+
+  // --- Show override for any "warn" or "critical" plan status (must run after planStatus is computed, before step5Warn) ---
+  if (step5OverrideContainer) {
+    if (planStatus === 'warn' || planStatus === 'critical') {
+      step5OverrideContainer.style.display = '';
+    } else {
+      step5OverrideContainer.style.display = 'none';
+      if (step5OverrideCheckbox) step5OverrideCheckbox.checked = false;
+      step5OverrideChecked = false;
+    }
+  }
+
+  // --- STEP 5: Show/hide warning banner in Step 5 ---
+  const step5Warn = document.getElementById('step5Warn');
+  if (step5Warn) {
+    // Friendly error logic for each food type
+    if (foodType === 'wet' && ready && (mealPlan <= 0 || wetAmt <= 0)) {
+      planStatus = 'incomplete';
+      step5Warn.textContent = ERR_WET;
+      step5Warn.style.display = '';
+    } else if (foodType === 'dry' && ready && (mealPlan <= 0 || dryKcalPer <= 0)) {
+      planStatus = 'incomplete';
+      step5Warn.textContent = ERR_DRY;
+      step5Warn.style.display = '';
+    } else if (foodType === 'both' && ready && (wetAmt > 0 && wetKcal > mer)) {
+      // Only show "too much wet food" if wetAmt > 0 and wetKcal > MER
+      planStatus = 'incomplete';
+      step5Warn.textContent = ERR_BOTH_NEG;
+      step5Warn.style.display = '';
+    } else if (!planValid && ready) {
+      // Only warn if plan is not valid and inputs are present
+      let warnMsg = '';
+      if (planStatus === 'warn') {
+        warnMsg = '⚠️ Close to target (±5%). Review with your vet.';
+      } else if (planStatus === 'critical') {
+        warnMsg = 'Plan not viable with current inputs.';
+      } else if (planStatus === 'incomplete') {
+        warnMsg = 'Fill in required values above.';
+      } else {
+        warnMsg = 'Adjust plan to match target (±5%).';
+      }
+      step5Warn.textContent = warnMsg;
+      step5Warn.style.display = '';
+    } else {
+      step5Warn.textContent = '';
+      step5Warn.style.display = 'none';
+    }
+  }
+
+      // --- STEP 6: Feeding Plan Summary UI update ---
+      // feedLine = banner, feedHeading = heading, feedPlanList = bullets
+      const feedEl = els.feedLine;
+      if (feedEl) {
+        // If override is enabled and checked, treat as "valid" for summary display
+        let planStatusForDisplay = planStatus;
+        let allowSummary = false;
+        if (step5OverrideContainer && step5OverrideContainer.style.display !== 'none' && step5OverrideCheckbox && step5OverrideCheckbox.checked) {
+          allowSummary = true;
+          planStatusForDisplay = 'override';
+        }
+        if ((planStatus === 'critical' || planStatus === 'incomplete') && !allowSummary) {
+          // Only in true error states do we show only warning and clear details.
+          feedEl.className = 'feedline warn';
+          feedEl.setAttribute('data-state', 'warn');
+          let warnMsg = '';
+          if (planStatus === 'critical') {
+            warnMsg = 'Meal plan is incomplete or not viable with current selections.';
+          } else {
+            if (foodType === 'wet' && ready && (mealPlan <= 0 || wetAmt <= 0)) {
+              warnMsg = ERR_WET;
+            } else if (foodType === 'dry' && ready && (mealPlan <= 0 || dryKcalPer <= 0)) {
+              warnMsg = ERR_DRY;
+            } else if (foodType === 'both' && ready && (wetAmt > 0 && wetKcal > mer)) {
+              warnMsg = ERR_BOTH_NEG;
+            } else {
+              warnMsg = 'Adjust Meal Plan in Step 5 to better match target';
+            }
+          }
+          feedEl.textContent = warnMsg;
+          // Clear plan details
+          const head = document.getElementById('feedHeading');
+          const bullets = document.getElementById('feedPlanList');
+          if(head) head.innerHTML = '';
+          if(bullets) bullets.innerHTML = '';
+          const lossNote = document.getElementById('lossNote');
+          if (lossNote) {
+  // Always compute loss note when possible, even if plan is not yet valid
+  lossNote.textContent = '';
+  const bcsNum = Number(bcs);
+  if (ls !== 'kitten' && bcsNum > 5 && kg > 0) {
+    const selUnit = els.weightUnit.value;
+    const displayName = (els.name.value && els.name.value.trim()) ? els.name.value.trim() : 'Your cat';
+    if (selUnit === 'lb') {
+      const lo = lb * 0.02, hi = lb * 0.04;
+      lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${displayName} is <strong>${fmt(lo,2)}–${fmt(hi,2)} lb</strong>.`;
+    } else {
+      const lo = kg * 0.02, hi = kg * 0.04;
+      lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${displayName} is <strong>${fmt(lo,2)}–${fmt(hi,2)} kg</strong>.`;
+    }
+  }
+}
+          // Also clear KPI chips
+          const kpiPlan = document.getElementById('kpiPlan');
+          if (kpiPlan) kpiPlan.innerHTML = '';
+        } else {
+          // For both 'ok' and 'warn', show full summary, but use warning color/message if planStatus === 'warn'
+          let summaryWarn = (planStatus === 'warn');
+          // For override, use a special warning color
+          if (planStatusForDisplay === 'override') summaryWarn = true;
+          feedEl.className = summaryWarn ? 'feedline warn' : 'feedline';
+          feedEl.setAttribute('data-state', summaryWarn ? 'warn' : 'good');
+
+          // Remove summary outside bubble
+          const feedSummary = document.getElementById('feedHeading');
+          if (feedSummary) {
+            feedSummary.innerHTML = '';
+          }
+          const name = els.name.value && els.name.value.trim() ? els.name.value.trim() : 'Your cat';
+          const ls = els.lifeStage.value;
+          const activity = els.activity.value;
+          const bcs = els.bcs.value;
+          const lsText = labelForLifeStage(ls);
+          const activityText = activity === 'inactive' ? 'Inactive/Obese Prone' : activity === 'active' ? 'Active' : '';
+          const bcsDescText = bcsDesc(Number(bcs));
+
+          // Icon and goal logic based only on BCS (ignore life stage)
+          let icon = '🟢';
+          let goal = 'maintain';
+          if (Number(bcs) == 5) {
+            goal = 'maintain';
+            icon = '🟢';
+          } else if (Number(bcs) < 5) {
+            goal = 'gain';
+            icon = '🔺';
+          } else if (Number(bcs) > 5) {
+            goal = 'lose';
+            icon = '🔻';
+          }
+
+          // 1. Summary sentence (no extra margin on first line)
+          const summarySentence = `<span class="feedline-emoji">🐈</span> <span class="cat-var">${esc(name)}</span> is a <span class="cat-var">${lsText}</span> with an <span class="cat-var">${activityText}</span> lifestyle and Body Condition Score of <span class="cat-var">${bcs} (${bcsDescText})</span>.`;
+          // 2. Goal banner line (gain/lose/maintain highlighted, emoji styled, colors per requirements)
+          let goalClass = '';
+          let goalEmoji = icon;
+          if (goal === 'maintain') {
+            goalClass = 'goal-var goal-maintain';
+            goalEmoji = summaryWarn ? '🟡' : '🟢';
+          } else {
+            goalClass = 'goal-var goal-change';
+            goalEmoji = (goal === 'gain') ? '🔺' : '🔻';
+          }
+          let bannerLine = `<span class="feedline-emoji">${goalEmoji}</span> <span class="cat-var">${esc(name)}</span> needs to <span class="${goalClass}">${goal}</span> weight by eating <span class="cal-var-blue">${fmt(mer,0)}</span> calories daily.`;
+          // PATCH: If warn or override, add vet review message
+          if (summaryWarn) {
+            bannerLine += ` <span style="color:#f59e0b;font-weight:600;">Please review this plan with your veterinarian.</span>`;
+          }
+          // 3. Feeding Plan
+          let planLine = '';
+          if (foodType === 'both') {
+            if (wetAmt > 0 && dryPhrase) {
+              planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food and ${dryPhrase} of Dry Food</span> daily.`;
+            } else if (wetAmt > 0) {
+              planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food</span> daily.`;
+            } else if (dryPhrase) {
+              planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${dryPhrase} of Dry Food</span> daily.`;
+            }
+          } else if (foodType === 'wet' && wetAmt > 0) {
+            planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food</span> daily.`;
+          } else if (foodType === 'dry' && dryPhrase) {
+            planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${dryPhrase} of Dry Food</span> daily.`;
+          }
+          // 4. Build and assign, use <div> with override banner if needed
+          let overrideBanner = '';
+          if (planStatusForDisplay === 'override') {
+            overrideBanner = `<span style="font-size:1.1em;font-weight:600;color:#a21caf;">🩺 Vet override enabled — plan reviewed with a veterinarian.</span>`;
+          }
+          let bubbleHTML = `
+            <div style="display:flex; flex-direction:column; gap:8px;">
+              ${overrideBanner}
+              <div style="display:flex; flex-wrap:wrap; align-items:center; gap:14px; line-height:1.3;">
+                <span>${summarySentence}</span>
+                <span>${bannerLine}</span>
+                ${planLine ? `<span>${planLine}</span>` : ''}
+              </div>
+            </div>
+          `;
+          feedEl.innerHTML = bubbleHTML;
+
+          // 4. Remove Feeding Plan from bullet list (feedPlanList) when valid plan is shown
+          const bullets = document.getElementById('feedPlanList');
+          if (bullets) {
+            bullets.innerHTML = '';
+          }
+
+          // 5. Weight-loss note (show for BCS > 5, not for kittens)
+          const lossNote = document.getElementById('lossNote');
+          if(lossNote){
+            lossNote.textContent = '';
+            if (ls !== 'kitten' && Number(bcs) > 5 && kg>0) {
+              const selUnit = els.weightUnit.value;
+              let lo, hi, rangeHTML;
+              if(selUnit === 'lb'){
+                lo = lb*0.02, hi = lb*0.04;
+                rangeHTML = `${fmt(lo,2)}–${fmt(hi,2)} lb`;
+              } else {
+                lo = kg*0.02, hi = kg*0.04;
+                rangeHTML = `${fmt(lo,2)}–${fmt(hi,2)} kg`;
+              }
+              lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${name || 'Your cat'} is <strong>${rangeHTML}</strong>.`;
+            }
+          }
+
+          // 6. KPI Chips (Wet kcal, Dry kcal, Total kcal)
+          const kpiPlan = document.getElementById('kpiPlan');
+          if (kpiPlan) {
+            kpiPlan.innerHTML = `
+              <span class="pill wet">Wet kcal: <strong>${fmt0(wetKcal)}</strong> kcal</span>
+              <span class="pill dry">Dry kcal: <strong>${fmt0(dryKcalActual)}</strong> kcal</span>
+              <span class="pill total">Total: <strong>${fmt0(mealPlan)}</strong> kcal</span>
+            `;
+          }
+        }
+      }
+}
+
+  function labelForLifeStage(code){
+    switch(code){
+      case 'neutered_adult': return 'Neutered Adult';
+      case 'intact_adult': return 'Intact Adult';
+      case 'kitten': return 'Growing Kitten';
+      case 'pregnant': return 'Pregnant';
+      default: return 'Adult';
+    }
+  }
+
+  function renderPillbar(el, items){
+    el.innerHTML='';
+    items.forEach(it=>{
+      const d=document.createElement('div');
+      d.className='pill';
+      if(it.cls) d.classList.add(it.cls);
+      if(it.status) d.classList.add(it.status==='ok'?'ok':it.status);
+      const labelHTML = it.boldLabel ? `<strong>${esc(it.label)}</strong>` : esc(it.label);
+      d.innerHTML = `${labelHTML}: <strong>${esc(it.value)}</strong>`;
+      el.appendChild(d);
+    });
+  }
+
+  function defaults(){
+    return {
+      name:'', lifeStage:'', activity:'', weightUnit:'lb', weightInput:'',
+      bcs:'', wetKcal:'', wetUnit:'can', dryBasis:'cup', dryKcal:'', wetAmountSel:'0', dryAmountSel: '0',
+    };
+  }
+  function getState(){
+    // Gather all relevant user input fields for steps 1-5
+    return {
+      name: els.name.value,
+      lifeStage: els.lifeStage.value,
+      activity: els.activity.value,
+      weightUnit: els.weightUnit.value,
+      weightInput: els.weightInput.value,
+      bcs: els.bcs.value,
+      foodType: els.foodType && els.foodType.value,
+      wetKcal: els.wetKcal.value,
+      wetUnit: els.wetUnit.value,
+      dryBasis: els.dryBasis.value,
+      dryKcal: els.dryKcal.value,
+      wetAmountSel: els.wetAmountSel.value,
+      dryAmountSel: document.getElementById('dryAmountSel')?.value,
+    };
+  }
+  function setState(d){
+    // Set all fields in d
+    Object.entries(d||{}).forEach(([k,v])=>{
+      if(k in els) els[k].value = v;
+    });
+    // Also set dryAmountSel if present
+    if ('dryAmountSel' in d && document.getElementById('dryAmountSel')) document.getElementById('dryAmountSel').value = d.dryAmountSel;
+    updateLabels();
+    getWeights();
+
+    // Fire change/input events for Step 4/5 fields to ensure listeners trigger and UI updates
+    // Step 4/5 fields: foodType, wetKcal, wetUnit, dryBasis, dryKcal, wetAmountSel, dryAmountSel
+    // Dispatch "change" event for each if present in d
+    const fireChange = (el) => {
+      if (el) {
+        el.dispatchEvent(new Event('change', {bubbles:true}));
+      }
+    };
+    const fireInput = (el) => {
+      if (el) {
+        el.dispatchEvent(new Event('input', {bubbles:true}));
+      }
+    };
+    // Step 4 fields
+    if ('foodType' in d && els.foodType) fireChange(els.foodType);
+    if ('wetKcal' in d && els.wetKcal) fireChange(els.wetKcal);
+    if ('wetUnit' in d && els.wetUnit) fireChange(els.wetUnit);
+    if ('dryBasis' in d && els.dryBasis) fireChange(els.dryBasis);
+    if ('dryKcal' in d && els.dryKcal) fireChange(els.dryKcal);
+    // Step 5 fields
+    if ('wetAmountSel' in d && els.wetAmountSel) fireChange(els.wetAmountSel);
+    // dryAmountSel is not in els, so use getElementById
+    if ('dryAmountSel' in d) {
+      const dryAmountSelEl = document.getElementById('dryAmountSel');
+      if (dryAmountSelEl) fireChange(dryAmountSelEl);
+    }
+
+    // After firing events, ensure autofill logic for Step 5 is called if needed (wet-only mode)
+    // (handleStep4WetKcalOrFoodTypeChange will only autofill if foodType is 'wet')
+    if (('foodType' in d || 'wetKcal' in d) && els.foodType && els.foodType.value === 'wet') {
+      wetAmountStep5UserOverridden = false;
+      autofillWetAmountStep5(true);
+    }
+
+    // Always force updateFoodTypeInputs and Step 5 meal planning fields after state set
+    updateFoodTypeInputs();
+    updateStep5MealPlanningFields();
+    // Force calculation and UI update so summary is shown immediately
+    calcAll();
+  }
+
+  function toQuery(){ const p = new URLSearchParams(getState()); return p.toString(); }
+  function fromQuery(){
+    const q = new URLSearchParams(location.search);
+    if(!q || [...q.keys()].length===0) return false;
+    const d={}; q.forEach((v,k)=>d[k]=v);
+    setState(d);
+    // After loading from query, set a global flag indicating we loaded from query
+    window._loadedFromQueryString = true;
+    return true;
+  }
+
+  function updateLabels(){
+    const nm = els.name.value && els.name.value.trim() ? els.name.value.trim() : 'Your cat';
+    const span = document.getElementById('bcsName'); if(span) span.textContent = nm;
+    if(els.catName4) els.catName4.textContent = nm;
+  }
+  
+  // Helper to format a decimal value as a human-friendly fraction (e.g., 1.125 -> "1 1/8")
+  function formatFraction(val, denom=8) {
+    const whole = Math.floor(val);
+    const frac = val - whole;
+    const n = Math.round(frac * denom);
+    if (n === 0) return whole > 0 ? `${whole}` : "0";
+    if (whole === 0) return `${n}/${denom}`;
+    return `${whole} ${n}/${denom}`;
+  }
+
+  // Build wet select 0..5 by 0.125 (1/8th can/pouch increments), using formatFraction for display
+  (function buildWet(){
+    for(let v=0; v<=SETTINGS.MAX_WET_UNITS+0.0001; v+=SETTINGS.WET_INCREMENT){
+      // Fix floating point rounding errors
+      let val = Math.round(v * 1000) / 1000;
+      const opt=document.createElement('option');
+      opt.value=String(val);
+      opt.textContent = formatFraction(val, 8);
+      els.wetAmountSel.appendChild(opt);
+    }
+  })();
+  /* removed dead buildDry() for non-existent #dryAmountSel */
+
+  // --- AUTOFILL LOGIC FOR STEP 5 WET-ONLY MODE (user-overridable) ---
+  // Tracks whether the user has overridden the Step 5 wet amount after autofill
+  let wetAmountStep5UserOverridden = false;
+  // Helper: set Step 5 wet amount to best-fit (unless user has overridden)
+  function autofillWetAmountStep5(force=false) {
+    const foodType = els.foodType && els.foodType.value ? els.foodType.value : '';
+    const {kg} = getWeights();
+    const ls=els.lifeStage.value, activity=els.activity.value, bcs=els.bcs.value;
+    const factor = computeFactor(ls,activity,bcs);
+    const rer = kg>0? 70 * pow075(kg) : 0; const mer = rer * factor;
+    const wetKcalPer = Number(els.wetKcal.value||0);
+    // Only autofill in wet-only mode, and only if not overridden or force==true
+    if (
+      foodType === 'wet' &&
+      mer > 0 &&
+      wetKcalPer > 0 &&
+      els.wetAmountSel &&
+      els.wetAmountSel.options.length > 0 &&
+      (!wetAmountStep5UserOverridden || force)
+    ) {
+      // Find the best-fit value: closest to MER (over or under)
+      let bestVal = null, bestDiff = null;
+      for (let i = 0; i < els.wetAmountSel.options.length; i++) {
+        const wetAmt = Number(els.wetAmountSel.options[i].value);
+        const kcal = wetAmt * wetKcalPer;
+        const diff = Math.abs(kcal - mer);
+        if (bestDiff === null || diff < bestDiff) {
+          bestDiff = diff;
+          bestVal = wetAmt;
+        }
+      }
+      const chosenVal = bestVal;
+      els.wetAmountSel.value = String(chosenVal);
+      // After autofill, do not set userOverridden. Wait for user to change it.
+      // Trigger event to update calculation
+      const evt = new Event('input', {bubbles:true});
+      els.wetAmountSel.dispatchEvent(evt);
+    }
+  }
+  // When user changes Step 5 wet amount, mark as overridden (in wet-only mode)
+  if (els.wetAmountSel) {
+    els.wetAmountSel.addEventListener('change', function() {
+      // Only track override in wet-only mode
+      if (els.foodType && els.foodType.value === 'wet') {
+        wetAmountStep5UserOverridden = true;
+      }
+    });
+    els.wetAmountSel.addEventListener('input', function() {
+      if (els.foodType && els.foodType.value === 'wet') {
+        wetAmountStep5UserOverridden = true;
+      }
+    });
+  }
+  // When Step 4 wet kcal or food type is changed to 'wet', autofill Step 5 wet amount and reset override flag
+  function handleStep4WetKcalOrFoodTypeChange() {
+    // Only autofill if foodType is 'wet'
+    if (els.foodType && els.foodType.value === 'wet') {
+      wetAmountStep5UserOverridden = false;
+      autofillWetAmountStep5(true);
+    }
+  }
+
+  // Events
+  // Robust listeners for Step 1 and BCS (Step 2)
+  ['name', 'weightInput', 'weightUnit', 'lifeStage', 'activity', 'bcs'].forEach(id => {
+    els[id].addEventListener('input', () => {
+      updateLabels();
+      updateRequired();
+      updateStepVisibility();
+      calcAll();
+      updateStep5MealPlanningFields();
+    });
+    els[id].addEventListener('change', () => {
+      updateLabels();
+      updateRequired();
+      updateStepVisibility();
+      calcAll();
+      updateStep5MealPlanningFields();
+    });
+  });
+  // Robust Step 4 listeners for visibility and calculation
+  // For wetKcal and foodType, also handle autofill logic
+  ['wetKcal', 'foodType'].forEach(id => {
+    els[id].addEventListener('input', () => {
+      updateLabels();
+      updateRequired();
+      updateStepVisibility();
+      calcAll();
+      updateStep5MealPlanningFields();
+      handleStep4WetKcalOrFoodTypeChange();
+    });
+    els[id].addEventListener('change', () => {
+      updateLabels();
+      updateRequired();
+      updateStepVisibility();
+      calcAll();
+      updateStep5MealPlanningFields();
+      handleStep4WetKcalOrFoodTypeChange();
+    });
+  });
+  // For dryKcal, just recalc (no autofill for wet)
+  ['dryKcal'].forEach(id => {
+    els[id].addEventListener('input', () => {
+      updateLabels();
+      updateRequired();
+      updateStepVisibility();
+      calcAll();
+      updateStep5MealPlanningFields();
+    });
+    els[id].addEventListener('change', () => {
+      updateLabels();
+      updateRequired();
+      updateStepVisibility();
+      calcAll();
+      updateStep5MealPlanningFields();
+    });
+  });
+  // Other Step 4/5 fields (not foodType/wetKcal/dryKcal)
+  ['wetUnit','dryBasis','wetAmountSel'].forEach(id => {
+    els[id].addEventListener('input', ()=>{ updateLabels(); updateStep5MealPlanningFields(); calcAll(); updateRequired(); updateStepVisibility(); });
+  });
+  if(els.foodType){
+    els.foodType.addEventListener('input', ()=>{ updateFoodTypeInputs(); updateStep5MealPlanningFields(); calcAll(); updateStepVisibility(); });
+    els.foodType.addEventListener('change', ()=>{ updateFoodTypeInputs(); updateStep5MealPlanningFields(); calcAll(); updateStepVisibility(); });
+  }
+  els.shareBtn.addEventListener('click', async ()=>{
+    const url = location.origin + location.pathname + '?' + toQuery();
+    const ok = await safeClipboard(url);
+    if(!ok){ window.prompt('Copy this link', url); }
+    showToast('Link copied');
+  });
+  els.copyBtn.addEventListener('click', async ()=>{
+    calcAll();
+    const text = buildCopySummary();
+    const ok = await safeClipboard(text);
+    if(!ok){ window.prompt('Copy this summary', text); }
+    showToast('Summary copied');
+  });
+  els.printBtn.addEventListener('click', ()=>{ window.print(); });
+  els.resetBtn.addEventListener('click', ()=>{
+    setState(defaults());
+    updateLabels();
+    updateRequired();
+    updateStepVisibility();
+    calcAll();
+    updateStep5MealPlanningFields();
+    showToast('Defaults restored');
+  });
+
+  // --- Init ---
+  // Track if we loaded from query string, for autofill logic
+  window._loadedFromQueryString = false;
+  if (!fromQuery()) {
+    setState(defaults());
+  }
+  // Always run in this order: updateLabels(); updateRequired(); updateFoodTypeInputs(); updateStep5MealPlanningFields(); updateStepVisibility(); calcAll();
+  updateLabels();
+  updateRequired();
+  updateFoodTypeInputs();
+  updateStep5MealPlanningFields();
+  updateStepVisibility();
+  calcAll();
+  // Autofill Step 5 wet amount if landing on page with wet-only (and not overridden and not loaded from query string)
+  if (!(window._loadedFromQueryString)) {
+    autofillWetAmountStep5();
+  }
+
+  // Service worker registration removed (no sw.js provided)
+
+  // Progressive step visibility function, now supports vet mode toggle
+  function updateStepVisibility() {
+    if (!PROGRESSIVE_MODE) {
+      // Vet Mode: all steps always visible, no progressive gating
+      document.getElementById('step1').style.display = '';
+      document.getElementById('step2').style.display = '';
+      document.getElementById('step3').style.display = '';
+      document.getElementById('step4').style.display = '';
+      document.getElementById('step5').style.display = '';
+      // Step 6: show if plan is valid or override is checked (wet-only)
+      const mealPlanVal = els.mealPlanKcal.value && Number(els.mealPlanKcal.value.replace(/[^\d.]/g, '')) > 0;
+      const planValid = document.body.getAttribute('data-plan-valid') === 'true';
+      let allowOverride = false;
+      if (overrideSummaryDiv && overrideSummaryDiv.style.display !== 'none' && overrideSummaryCheckbox && overrideSummaryCheckbox.checked) {
+        allowOverride = true;
+      }
+      document.getElementById('step6').style.display = mealPlanVal && (planValid || allowOverride) ? '' : 'none';
+      updateRequired();
+      return;
+    }
+    // Step 1: Always visible
+    document.getElementById('step1').style.display = '';
+
+    // Step 2: name, weight, lifeStage, activity required
+    const name = els.name.value && els.name.value.trim();
+    const weight = Number(els.weightInput.value) > 0;
+    const ls = els.lifeStage.value;
+    const activity = els.activity.value;
+    const step2Ready = !!name && weight && !!ls && !!activity;
+    document.getElementById('step2').style.display = step2Ready ? '' : 'none';
+
+    // Step 3/4: BCS must be selected
+    const bcs = els.bcs.value && Number(els.bcs.value) >= 1;
+    const step3Ready = step2Ready && bcs;
+    document.getElementById('step3').style.display = step3Ready ? '' : 'none';
+    document.getElementById('step4').style.display = step3Ready ? '' : 'none';
+
+    // Step 4 notes (only show after foodType is picked)
+    const step4Notes = document.getElementById('step4Notes');
+    if (step4Notes) step4Notes.style.display = els.foodType.value ? '' : 'none';
+
+    // Step 5: foodType and appropriate kcal(s)
+    const foodType = els.foodType.value;
+    const wetKcal = Number(els.wetKcal.value);
+    const dryKcal = Number(els.dryKcal.value);
+    let step5Ready = false;
+    if (foodType === 'wet' && wetKcal > 0) step5Ready = true;
+    if (foodType === 'dry' && dryKcal > 0) step5Ready = true;
+    if (foodType === 'both' && wetKcal > 0 && dryKcal > 0) step5Ready = true;
+    document.getElementById('step5').style.display = step5Ready && step3Ready ? '' : 'none';
+
+    // Step 6: show if plan is valid or override is checked
+    const mealPlanVal = els.mealPlanKcal.value && Number(els.mealPlanKcal.value.replace(/[^\d.]/g, '')) > 0;
+    const planValid = document.body.getAttribute('data-plan-valid') === 'true';
+    let allowOverride = false;
+    if (step5OverrideContainer && step5OverrideContainer.style.display !== 'none' && step5OverrideCheckbox && step5OverrideCheckbox.checked) {
+      allowOverride = true;
+    }
+    document.getElementById('step6').style.display = step5Ready && step3Ready && mealPlanVal && (planValid || allowOverride) ? '' : 'none';
+
+    updateRequired();
+  }
+  // Vet Mode button logic
+  const vetModeBtn = document.getElementById('vetModeBtn');
+  function updateVetModeBtnText() {
+    if (!vetModeBtn) return;
+    vetModeBtn.textContent = PROGRESSIVE_MODE ? "Show all steps" : "Show step-by-step";
+  }
+  if (vetModeBtn) {
+    vetModeBtn.addEventListener('click', function() {
+      PROGRESSIVE_MODE = !PROGRESSIVE_MODE;
+      updateVetModeBtnText();
+      updateStepVisibility();
+    });
+    // Set initial button text
+    updateVetModeBtnText();
+  }
+})();
+// Add print date to Step 6 summary header
+(function(){
+  function formatDate(d) {
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+  }
+  const dateSpan = document.getElementById('summaryDate');
+  if(dateSpan){
+    const today = new Date();
+    dateSpan.textContent = formatDate(today);
+  }
+  // Refresh date on print, in case it rolls over
+  window.addEventListener('beforeprint', function() {
+    const dateSpan = document.getElementById('summaryDate');
+    if(dateSpan){
+      const today = new Date();
+      dateSpan.textContent = formatDate(today);
+    }
+  });
+})();
+</script>
+
+<script type="text/javascript" src="/unprotected/back_to_spaceship.js?hash=4975d460e508829e8fb64d3962bc44ad35f3a95a"></script>
+
+
+<script>
+(function(){
+  function push(evt){ 
+    window._mtm = window._mtm || []; 
+    _mtm.push(evt); 
+  }
+  ['copyBtn','shareBtn','printBtn'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.addEventListener('click', function(){ push({event:'ui.action', action:id}); });
+  });
+  ['lifeStage','activity','foodType'].forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) el.addEventListener('change', function(){ push({event:'form.change', field:id, value:el.value}); });
+  });
+})();
+</script>
+
+</body>
+</html>

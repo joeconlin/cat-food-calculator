@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Builds and caches (add or remove as needed)
+dist/
+build/
+.cache/
+
+# Secrets
+.env
