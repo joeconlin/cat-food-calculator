@@ -123,6 +123,9 @@ input[type=number]{appearance:textfield}
 .pill.wet{background:#dbeafe;border-color:#bfdbfe}
 .pill.dry{background:#fef3c7;border-color:#fde68a}
 .pill.total{background:#dcfce7;border-color:#86efac}
+.pill.life-stage{background:#ede9fe;border-color:#c4b5fd}
+.pill.activity{background:#fff7ed;border-color:#fdba74}
+.pill.bcs{background:#fee2e2;border-color:#fecaca}
 
 /* Output */
 .out{font-size:1.02rem;line-height:1.5;white-space:pre-wrap}
@@ -386,3 +389,31 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, select:focus-visible 
 }
 
 /* Preserve existing specificity by placing these at the end of file */
+
+.calorie-callout{
+  margin-top:14px;
+  padding:12px 16px;
+  background:#dcfce7;
+  border:1px solid #86efac;
+  border-radius:14px;
+  font-size:1.04rem;
+  font-weight:600;
+  color:#065f46;
+  box-shadow:0 2px 8px rgba(13,148,136,0.08);
+}
+.calorie-callout strong{
+  font-size:1.12rem;
+  margin-left:6px;
+}
+.calorie-callout .badge-mer{
+  display:inline-block;
+  margin-left:8px;
+  padding:3px 9px;
+  font-size:0.75rem;
+  font-weight:600;
+  color:#0f172a;
+  background:#bfdbfe;
+  border:1px solid #60a5fa;
+  border-radius:999px;
+  vertical-align:baseline;
+}
