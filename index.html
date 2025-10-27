@@ -636,9 +636,13 @@
                 <tr><td>Growing kitten</td><td>2.5</td></tr>
               </tbody>
             </table>
-          </details>
         </details>
-      </section>
+      </details>
+      <div style="margin-top:16px;display:flex;flex-direction:column;gap:10px;" id="calorieSummaryActions">
+        <button type="button" class="btn" id="calorieSummaryBtn">Print calorie-only summary</button>
+        <div id="calorieSummaryNote" class="note">Or continue to Steps 4–5 once you have your food information.</div>
+      </div>
+    </section>
 
       <!-- STEP 4: LABELS -->
       <section class="card input" id="step4" style="display:none">
@@ -755,13 +759,15 @@
         <img decoding="async" loading="lazy" class="illustration" src="Kara-thumbs-up-cartoon-1.png" alt="Vet thumbs up" />
         <h2 class="section-title" id="summaryHeader">
           <span class="step" id="step6Chip">Step 6</span>
-          Summary and Feeding Plan: <span id="summaryDate"></span>
+          <span id="summaryTitleText">Results & Feeding Plan</span>
+          <span class="summary-date" style="margin-left:6px;">• <span id="summaryDate"></span></span>
           <span class="badge result" id="resultChip">RESULT</span>
         </h2>
         <div id="feedHeading" class="feedheading"></div>
         <div id="feedLine" class="feedline" role="status" aria-live="polite">Enter values above to see the plan.</div>
         <div id="feedPlanHeading" class="note" style="margin-top:8px"></div>
         <ul id="feedPlanList" class="summary-list"></ul>
+        <div id="calorieCallout" class="calorie-callout" style="display:none;"></div>
         <div id="lossNote" class="note" style="font-size:1.15rem;font-weight:700;color:#3a342f;background:#fff7ed;border-radius:10px;border:1px solid #fdba74;padding:10px 16px;margin-top:18px;margin-bottom:10px;display:block;"></div>
         <ul id="summaryList" class="summary-list"></ul>
         <div class="note" style="font-size:1.08rem;font-weight:600;color:#3a342f;background:#fef3c7;border-radius:10px;border:1px solid #fde68a;padding:10px 16px;margin-top:12px;display:block;">
@@ -810,6 +816,7 @@
   }
   const YT_URL = 'https://youtube.com/@catrepairwoman';
   let PROGRESSIVE_MODE = true;
+  let SUMMARY_MODE = '';
   const SETTINGS = {
     // Set to true for classic step-by-step, false for "vet mode" (all steps visible)
     PERCENT_MARGIN: 0.01,      // 1% of MER allowed variance
@@ -831,11 +838,49 @@
     kpiDiff: $('kpiDiff'), kpiPlan: $('kpiPlan'), feedLine: $('feedLine'), lossNote: $('lossNote'),
     shareBtn: $('shareBtn'), copyBtn: $('copyBtn'), printBtn: $('printBtn'), resetBtn: $('resetBtn'),
     wetGroup:$('wetGroup'), dryGroup:$('dryGroup'),
+    calorieSummaryBtn: $('calorieSummaryBtn'), calorieSummaryNote: $('calorieSummaryNote'),
+    calorieCallout: $('calorieCallout'),
     foodType: document.getElementById('foodType'),
     catName4: document.getElementById('catName4'),
     wetInputBlock: document.getElementById('wetInputBlock'),
     dryInputBlock: document.getElementById('dryInputBlock')
   };
+  function isCalorieOnlyMode(){ return SUMMARY_MODE === 'calorie-only'; }
+  function setSummaryMode(mode){
+    const next = mode === 'calorie-only' ? 'calorie-only' : '';
+    SUMMARY_MODE = next;
+    if (next) document.body.setAttribute('data-summary-mode', next);
+    else document.body.removeAttribute('data-summary-mode');
+    updateSummaryModeUI();
+  }
+  function updateSummaryModeUI(){
+    const active = isCalorieOnlyMode();
+    const displayName = els.name && els.name.value && els.name.value.trim() ? els.name.value.trim() : 'Your cat';
+    const possessive = /s$/i.test(displayName) ? `${displayName}'` : `${displayName}'s`;
+    if (els.calorieSummaryBtn) {
+      els.calorieSummaryBtn.textContent = active ? 'Resume meal planning steps' : 'Print calorie-only summary';
+      els.calorieSummaryBtn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    }
+    if (els.calorieSummaryNote) {
+      els.calorieSummaryNote.textContent = active
+        ? "Click 'Resume meal planning steps' when you're ready to enter food information."
+        : 'Or continue to Steps 4–5 once you have your food information.';
+    }
+    const step6Chip = document.getElementById('step6Chip');
+    if (step6Chip) step6Chip.textContent = active ? 'Results' : 'Step 6';
+    const summaryTitle = document.getElementById('summaryTitleText');
+    if (summaryTitle) summaryTitle.textContent = active ? `${possessive} Calorie Results` : 'Results & Feeding Plan';
+    const callout = document.getElementById('calorieCallout');
+    if (callout && !active) {
+      callout.style.display = 'none';
+      callout.textContent = '';
+    }
+    if (els.shareBtn) {
+      els.shareBtn.textContent = active ? 'Resume meal planning' : 'Share link';
+      els.shareBtn.setAttribute('aria-label', active ? 'Resume meal planning steps' : 'Copy shareable link');
+      els.shareBtn.title = active ? 'Return to enter food details' : 'Copy a link with the current values';
+    }
+  }
   // Show/hide wet/dry inputs based on food type selection
   function updateFoodTypeInputs(){
     const type = els.foodType.value;
@@ -1136,6 +1181,15 @@
       });
     }
     const loss = (document.getElementById('lossNote')?.textContent || '').trim();
+    const callout = (document.getElementById('calorieCallout')?.textContent || '').trim();
+    const pillbar = document.getElementById('kpiPlan');
+    const pills = [];
+    if(pillbar){
+      Array.from(pillbar.querySelectorAll('.pill')).forEach(p=>{
+        const t = (p.textContent || '').replace(/\s+/g,' ').trim();
+        if(t) pills.push(t);
+      });
+    }
 
     const parts = [];
     if(head)   parts.push(head);
@@ -1143,6 +1197,11 @@
     if(bullets.length){
       parts.push('Feeding Plan:');
       bullets.forEach(b => parts.push('• ' + b));
+    }
+    if(callout) parts.push(callout);
+    if(pills.length){
+      parts.push('Key details:');
+      pills.forEach(p => parts.push('• ' + p));
     }
     if(loss) parts.push(loss);
 
@@ -1203,6 +1262,11 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
   // PATCH: v2.0.1 Step 5 dry mode
   // removed unused dryAmountSel reference (no dropdown in DOM)
   const {lb,kg}=getWeights();
+  const calorieCallout = document.getElementById('calorieCallout');
+  if (calorieCallout) {
+    calorieCallout.style.display = 'none';
+    calorieCallout.textContent = '';
+  }
   const ls=els.lifeStage.value, activity=els.activity.value, bcs=els.bcs.value;
   const factor = computeFactor(ls,activity,bcs);
   const rer = kg>0? 70 * pow075(kg) : 0; const mer = rer * factor;
@@ -1501,180 +1565,151 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     }
   }
 
-      // --- STEP 6: Feeding Plan Summary UI update ---
-      // feedLine = banner, feedHeading = heading, feedPlanList = bullets
-      const feedEl = els.feedLine;
-      if (feedEl) {
-        // If override is enabled and checked, treat as "valid" for summary display
-        let planStatusForDisplay = planStatus;
-        let allowSummary = false;
-        if (step5OverrideContainer && step5OverrideContainer.style.display !== 'none' && step5OverrideCheckbox && step5OverrideCheckbox.checked) {
-          allowSummary = true;
-          planStatusForDisplay = 'override';
-        }
-        if ((planStatus === 'critical' || planStatus === 'incomplete') && !allowSummary) {
-          // Only in true error states do we show only warning and clear details.
-          feedEl.className = 'feedline warn';
-          feedEl.setAttribute('data-state', 'warn');
-          let warnMsg = '';
-          if (planStatus === 'critical') {
-            warnMsg = 'Meal plan is incomplete or not viable with current selections.';
-          } else {
-            if (foodType === 'wet' && ready && (mealPlan <= 0 || wetAmt <= 0)) {
-              warnMsg = ERR_WET;
-            } else if (foodType === 'dry' && ready && (mealPlan <= 0 || dryKcalPer <= 0)) {
-              warnMsg = ERR_DRY;
-            } else if (foodType === 'both' && ready && (wetAmt > 0 && wetKcal > mer)) {
-              warnMsg = ERR_BOTH_NEG;
-            } else {
-              warnMsg = 'Adjust Meal Plan in Step 5 to better match target';
-            }
-          }
-          feedEl.textContent = warnMsg;
-          // Clear plan details
-          const head = document.getElementById('feedHeading');
-          const bullets = document.getElementById('feedPlanList');
-          if(head) head.innerHTML = '';
-          if(bullets) bullets.innerHTML = '';
-          const lossNote = document.getElementById('lossNote');
-          if (lossNote) {
-  // Always compute loss note when possible, even if plan is not yet valid
-  lossNote.textContent = '';
-  const bcsNum = Number(bcs);
-  if (ls !== 'kitten' && bcsNum > 5 && kg > 0) {
-    const selUnit = els.weightUnit.value;
-    const displayName = (els.name.value && els.name.value.trim()) ? els.name.value.trim() : 'Your cat';
-    if (selUnit === 'lb') {
-      const lo = lb * 0.02, hi = lb * 0.04;
-      lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${displayName} is <strong>${fmt(lo,2)}–${fmt(hi,2)} lb</strong>.`;
+  // --- STEP 6: Feeding Plan Summary UI update ---
+  const feedEl = els.feedLine;
+  if (feedEl) {
+    if (isCalorieOnlyMode()) {
+      renderCalorieOnlySummary({
+        name: els.name.value,
+        ls,
+        activity,
+        bcs,
+        kg,
+        lb,
+        rer,
+        mer,
+        factor
+      });
+      updateLossNote(ls, bcs, kg, lb);
     } else {
-      const lo = kg * 0.02, hi = kg * 0.04;
-      lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${displayName} is <strong>${fmt(lo,2)}–${fmt(hi,2)} kg</strong>.`;
-    }
-  }
-}
-          // Also clear KPI chips
-          const kpiPlan = document.getElementById('kpiPlan');
-          if (kpiPlan) kpiPlan.innerHTML = '';
+      let planStatusForDisplay = planStatus;
+      let allowSummary = false;
+      if (step5OverrideContainer && step5OverrideContainer.style.display !== 'none' && step5OverrideCheckbox && step5OverrideCheckbox.checked) {
+        allowSummary = true;
+        planStatusForDisplay = 'override';
+      }
+      if ((planStatus === 'critical' || planStatus === 'incomplete') && !allowSummary) {
+        feedEl.style.display = '';
+        feedEl.className = 'feedline warn';
+        feedEl.setAttribute('data-state', 'warn');
+        let warnMsg = '';
+        if (planStatus === 'critical') {
+          warnMsg = 'Meal plan is incomplete or not viable with current selections.';
         } else {
-          // For both 'ok' and 'warn', show full summary, but use warning color/message if planStatus === 'warn'
-          let summaryWarn = (planStatus === 'warn');
-          // For override, use a special warning color
-          if (planStatusForDisplay === 'override') summaryWarn = true;
-          feedEl.className = summaryWarn ? 'feedline warn' : 'feedline';
-          feedEl.setAttribute('data-state', summaryWarn ? 'warn' : 'good');
-
-          // Remove summary outside bubble
-          const feedSummary = document.getElementById('feedHeading');
-          if (feedSummary) {
-            feedSummary.innerHTML = '';
-          }
-          const name = els.name.value && els.name.value.trim() ? els.name.value.trim() : 'Your cat';
-          const ls = els.lifeStage.value;
-          const activity = els.activity.value;
-          const bcs = els.bcs.value;
-          const lsText = labelForLifeStage(ls);
-          const activityText = activity === 'inactive' ? 'Inactive/Obese Prone' : activity === 'active' ? 'Active' : '';
-          const bcsDescText = bcsDesc(Number(bcs));
-
-          // Icon and goal logic based only on BCS (ignore life stage)
-          let icon = '🟢';
-          let goal = 'maintain';
-          if (Number(bcs) == 5) {
-            goal = 'maintain';
-            icon = '🟢';
-          } else if (Number(bcs) < 5) {
-            goal = 'gain';
-            icon = '🔺';
-          } else if (Number(bcs) > 5) {
-            goal = 'lose';
-            icon = '🔻';
-          }
-
-          // 1. Summary sentence (no extra margin on first line)
-          const summarySentence = `<span class="feedline-emoji">🐈</span> <span class="cat-var">${esc(name)}</span> is a <span class="cat-var">${lsText}</span> with an <span class="cat-var">${activityText}</span> lifestyle and Body Condition Score of <span class="cat-var">${bcs} (${bcsDescText})</span>.`;
-          // 2. Goal banner line (gain/lose/maintain highlighted, emoji styled, colors per requirements)
-          let goalClass = '';
-          let goalEmoji = icon;
-          if (goal === 'maintain') {
-            goalClass = 'goal-var goal-maintain';
-            goalEmoji = summaryWarn ? '🟡' : '🟢';
+          if (foodType === 'wet' && ready && (mealPlan <= 0 || wetAmt <= 0)) {
+            warnMsg = ERR_WET;
+          } else if (foodType === 'dry' && ready && (mealPlan <= 0 || dryKcalPer <= 0)) {
+            warnMsg = ERR_DRY;
+          } else if (foodType === 'both' && ready && (wetAmt > 0 && wetKcal > mer)) {
+            warnMsg = ERR_BOTH_NEG;
           } else {
-            goalClass = 'goal-var goal-change';
-            goalEmoji = (goal === 'gain') ? '🔺' : '🔻';
+            warnMsg = 'Adjust Meal Plan in Step 5 to better match target';
           }
-          let bannerLine = `<span class="feedline-emoji">${goalEmoji}</span> <span class="cat-var">${esc(name)}</span> needs to <span class="${goalClass}">${goal}</span> weight by eating <span class="cal-var-blue">${fmt(mer,0)}</span> calories daily.`;
-          // PATCH: If warn or override, add vet review message
-          if (summaryWarn) {
-            bannerLine += ` <span style="color:#f59e0b;font-weight:600;">Please review this plan with your veterinarian.</span>`;
-          }
-          // 3. Feeding Plan
-          let planLine = '';
-          if (foodType === 'both') {
-            if (wetAmt > 0 && dryPhrase) {
-              planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food and ${dryPhrase} of Dry Food</span> daily.`;
-            } else if (wetAmt > 0) {
-              planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food</span> daily.`;
-            } else if (dryPhrase) {
-              planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${dryPhrase} of Dry Food</span> daily.`;
-            }
-          } else if (foodType === 'wet' && wetAmt > 0) {
+        }
+        feedEl.textContent = warnMsg;
+        const head = document.getElementById('feedHeading');
+        const bullets = document.getElementById('feedPlanList');
+        if(head) head.innerHTML = '';
+        if(bullets) bullets.innerHTML = '';
+        const feedPlanHeading = document.getElementById('feedPlanHeading');
+        if(feedPlanHeading) feedPlanHeading.textContent = '';
+        const kpiPlan = document.getElementById('kpiPlan');
+        if (kpiPlan) kpiPlan.innerHTML = '';
+        updateLossNote(ls, bcs, kg, lb);
+      } else {
+        let summaryWarn = (planStatus === 'warn');
+        if (planStatusForDisplay === 'override') summaryWarn = true;
+        feedEl.style.display = '';
+        feedEl.className = summaryWarn ? 'feedline warn' : 'feedline';
+        feedEl.setAttribute('data-state', summaryWarn ? 'warn' : 'good');
+
+        const feedSummary = document.getElementById('feedHeading');
+        if (feedSummary) {
+          feedSummary.innerHTML = '';
+        }
+        const feedPlanHeading = document.getElementById('feedPlanHeading');
+        if(feedPlanHeading) feedPlanHeading.textContent = '';
+        const name = els.name.value && els.name.value.trim() ? els.name.value.trim() : 'Your cat';
+        const lsText = labelForLifeStage(ls);
+        const activityText = activity === 'inactive' ? 'Inactive/Obese Prone' : activity === 'active' ? 'Active' : '';
+        const bcsDescText = bcsDesc(Number(bcs));
+
+        let icon = '🟢';
+        let goal = 'maintain';
+        if (Number(bcs) == 5) {
+          goal = 'maintain';
+          icon = '🟢';
+        } else if (Number(bcs) < 5) {
+          goal = 'gain';
+          icon = '🔺';
+        } else if (Number(bcs) > 5) {
+          goal = 'lose';
+          icon = '🔻';
+        }
+
+        const summarySentence = `<span class="feedline-emoji">🐈</span> <span class="cat-var">${esc(name)}</span> is a <span class="cat-var">${lsText}</span> with an <span class="cat-var">${activityText}</span> lifestyle and Body Condition Score of <span class="cat-var">${bcs} (${bcsDescText})</span>.`;
+        let goalClass = '';
+        let goalEmoji = icon;
+        if (goal === 'maintain') {
+          goalClass = 'goal-var goal-maintain';
+          goalEmoji = summaryWarn ? '🟡' : '🟢';
+        } else {
+          goalClass = 'goal-var goal-change';
+          goalEmoji = (goal === 'gain') ? '🔺' : '🔻';
+        }
+        let bannerLine = `<span class="feedline-emoji">${goalEmoji}</span> <span class="cat-var">${esc(name)}</span> needs to <span class="${goalClass}">${goal}</span> weight by eating <span class="cal-var-blue">${fmt(mer,0)}</span> calories daily.`;
+        if (summaryWarn) {
+          bannerLine += ` <span style="color:#f59e0b;font-weight:600;">Please review this plan with your veterinarian.</span>`;
+        }
+
+        let planLine = '';
+        if (foodType === 'both') {
+          if (wetAmt > 0 && dryPhrase) {
+            planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food and ${dryPhrase} of Dry Food</span> daily.`;
+          } else if (wetAmt > 0) {
             planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food</span> daily.`;
-          } else if (foodType === 'dry' && dryPhrase) {
+          } else if (dryPhrase) {
             planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${dryPhrase} of Dry Food</span> daily.`;
           }
-          // 4. Build and assign, use <div> with override banner if needed
-          let overrideBanner = '';
-          if (planStatusForDisplay === 'override') {
-            overrideBanner = `<span style="font-size:1.1em;font-weight:600;color:#a21caf;">🩺 Vet override enabled — plan reviewed with a veterinarian.</span>`;
-          }
-          let bubbleHTML = `
-            <div style="display:flex; flex-direction:column; gap:8px;">
-              ${overrideBanner}
-              <div style="display:flex; flex-wrap:wrap; align-items:center; gap:14px; line-height:1.3;">
-                <span>${summarySentence}</span>
-                <span>${bannerLine}</span>
-                ${planLine ? `<span>${planLine}</span>` : ''}
-              </div>
-            </div>
-          `;
-          feedEl.innerHTML = bubbleHTML;
-
-          // 4. Remove Feeding Plan from bullet list (feedPlanList) when valid plan is shown
-          const bullets = document.getElementById('feedPlanList');
-          if (bullets) {
-            bullets.innerHTML = '';
-          }
-
-          // 5. Weight-loss note (show for BCS > 5, not for kittens)
-          const lossNote = document.getElementById('lossNote');
-          if(lossNote){
-            lossNote.textContent = '';
-            if (ls !== 'kitten' && Number(bcs) > 5 && kg>0) {
-              const selUnit = els.weightUnit.value;
-              let lo, hi, rangeHTML;
-              if(selUnit === 'lb'){
-                lo = lb*0.02, hi = lb*0.04;
-                rangeHTML = `${fmt(lo,2)}–${fmt(hi,2)} lb`;
-              } else {
-                lo = kg*0.02, hi = kg*0.04;
-                rangeHTML = `${fmt(lo,2)}–${fmt(hi,2)} kg`;
-              }
-              lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${name || 'Your cat'} is <strong>${rangeHTML}</strong>.`;
-            }
-          }
-
-          // 6. KPI Chips (Wet kcal, Dry kcal, Total kcal)
-          const kpiPlan = document.getElementById('kpiPlan');
-          if (kpiPlan) {
-            kpiPlan.innerHTML = `
-              <span class="pill wet">Wet kcal: <strong>${fmt0(wetKcal)}</strong> kcal</span>
-              <span class="pill dry">Dry kcal: <strong>${fmt0(dryKcalActual)}</strong> kcal</span>
-              <span class="pill total">Total: <strong>${fmt0(mealPlan)}</strong> kcal</span>
-            `;
-          }
+        } else if (foodType === 'wet' && wetAmt > 0) {
+          planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${fmt(wetAmt)} ${pluralWord(els.wetUnit.value, wetAmt)} of Wet Food</span> daily.`;
+        } else if (foodType === 'dry' && dryPhrase) {
+          planLine = `<span class="feedline-emoji">🍽️</span> Feeding Plan: <span class="plan-var">${dryPhrase} of Dry Food</span> daily.`;
         }
+
+        let overrideBanner = '';
+        if (planStatusForDisplay === 'override') {
+          overrideBanner = `<span style="font-size:1.1em;font-weight:600;color:#a21caf;">🩺 Vet override enabled — plan reviewed with a veterinarian.</span>`;
+        }
+        const bubbleHTML = `
+          <div style="display:flex; flex-direction:column; gap:8px;">
+            ${overrideBanner}
+            <div style="display:flex; flex-wrap:wrap; align-items:center; gap:14px; line-height:1.3;">
+              <span>${summarySentence}</span>
+              <span>${bannerLine}</span>
+              ${planLine ? `<span>${planLine}</span>` : ''}
+            </div>
+          </div>
+        `;
+        feedEl.innerHTML = bubbleHTML;
+
+        const bullets = document.getElementById('feedPlanList');
+        if (bullets) {
+          bullets.innerHTML = '';
+        }
+
+        const kpiPlan = document.getElementById('kpiPlan');
+        if (kpiPlan) {
+          kpiPlan.innerHTML = `
+            <span class="pill wet">Wet kcal: <strong>${fmt0(wetKcal)}</strong> kcal</span>
+            <span class="pill dry">Dry kcal: <strong>${fmt0(dryKcalActual)}</strong> kcal</span>
+            <span class="pill total">Total: <strong>${fmt0(mealPlan)}</strong> kcal</span>
+          `;
+        }
+        updateLossNote(ls, bcs, kg, lb);
       }
+    }
+  }
 }
 
   function labelForLifeStage(code){
@@ -1699,11 +1734,91 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
       el.appendChild(d);
     });
   }
+  function updateLossNote(ls, bcs, kg, lb){
+    const lossNote = document.getElementById('lossNote');
+    if(!lossNote) return;
+    lossNote.innerHTML = '';
+    lossNote.style.display = 'none';
+    const bcsNum = Number(bcs);
+    if (ls === 'kitten' || !(bcsNum > 5) || !(kg > 0)) return;
+    const displayName = (els.name.value && els.name.value.trim()) ? els.name.value.trim() : 'Your cat';
+    const unit = els.weightUnit.value === 'kg' ? 'kg' : 'lb';
+    if (unit === 'lb') {
+      const lo = lb * 0.02, hi = lb * 0.04;
+      lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${displayName} is <strong>${fmt(lo,2)}–${fmt(hi,2)} lb</strong>.`;
+    } else {
+      const lo = kg * 0.02, hi = kg * 0.04;
+      lossNote.innerHTML = `🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for ${displayName} is <strong>${fmt(lo,2)}–${fmt(hi,2)} kg</strong>.`;
+    }
+    lossNote.style.display = '';
+  }
+  function renderCalorieOnlySummary({name, ls, activity, bcs, kg, lb, rer, mer, factor}){
+    const feedEl = els.feedLine;
+    if(!feedEl) return;
+    const feedHeading = document.getElementById('feedHeading');
+    if(feedHeading){
+      feedHeading.innerHTML = '';
+    }
+    feedEl.className = '';
+    feedEl.setAttribute('data-state','');
+    feedEl.innerHTML = '';
+    feedEl.style.display = 'none';
+
+    const feedPlanHeading = document.getElementById('feedPlanHeading');
+    if(feedPlanHeading){
+      feedPlanHeading.textContent = '';
+    }
+    const feedPlanList = document.getElementById('feedPlanList');
+    if(feedPlanList){
+      feedPlanList.innerHTML = '';
+    }
+
+    const summaryList = document.getElementById('summaryList');
+    if(summaryList){
+      summaryList.innerHTML = '';
+    }
+    const callout = els.calorieCallout || document.getElementById('calorieCallout');
+    if(callout){
+      const merValue = fmt(mer,0);
+      callout.style.display = '';
+      callout.innerHTML = `Recommended daily calories: <strong>${merValue} kcal/day</strong>`;
+    }
+
+    const kpiPlan = document.getElementById('kpiPlan');
+    if(kpiPlan){
+      const pills = [];
+      if(kg > 0){
+        pills.push({label:'Weight', value:`${fmt(kg,2)} kg (${fmt(lb,2)} lb)`, cls:'weight'});
+      }
+      const lsText = labelForLifeStage(ls);
+      if(lsText) pills.push({label:'Life Stage', value:lsText, cls:'life-stage'});
+      const activityText = activity === 'inactive' ? 'Inactive/Obese Prone' : activity === 'active' ? 'Active' : '';
+      if(activityText) pills.push({label:'Activity', value:activityText, cls:'activity'});
+      if(factor){
+        pills.push({label:'Factor', value:fmt(factor,2), cls:'factor'});
+      }
+      const bcsDescText = bcsDesc(Number(bcs));
+      if(bcs && bcsDescText){
+        pills.push({label:'BCS', value:`${bcs} ${bcsDescText}`, cls:'bcs'});
+      } else if (bcsDescText){
+        pills.push({label:'BCS', value:bcsDescText, cls:'bcs'});
+      }
+      pills.push({label:'RER', value:`${fmt(rer,0)} kcal/day`, cls:'rer'});
+      pills.push({label:'MER', value:`${fmt(mer,0)} kcal/day`, cls:'mer'});
+      renderPillbar(kpiPlan, pills);
+    }
+    const step5Warn = document.getElementById('step5Warn');
+    if(step5Warn){
+      step5Warn.textContent = '';
+      step5Warn.style.display = 'none';
+    }
+  }
 
   function defaults(){
     return {
       name:'', lifeStage:'', activity:'', weightUnit:'lb', weightInput:'',
-      bcs:'', wetKcal:'', wetUnit:'can', dryBasis:'cup', dryKcal:'', wetAmountSel:'0', dryAmountSel: '0',
+      bcs:'', wetKcal:'', wetUnit:'can', dryBasis:'cup', dryKcal:'', wetAmountSel:'0', dryAmountSel:'0',
+      summaryMode:'',
     };
   }
   function getState(){
@@ -1722,9 +1837,13 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
       dryKcal: els.dryKcal.value,
       wetAmountSel: els.wetAmountSel.value,
       dryAmountSel: document.getElementById('dryAmountSel')?.value,
+      summaryMode: SUMMARY_MODE,
     };
   }
   function setState(d){
+    if ('summaryMode' in d) {
+      setSummaryMode(d.summaryMode);
+    }
     // Set all fields in d
     Object.entries(d||{}).forEach(([k,v])=>{
       if(k in els) els[k].value = v;
@@ -1773,6 +1892,7 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     updateStep5MealPlanningFields();
     // Force calculation and UI update so summary is shown immediately
     calcAll();
+    updateSummaryModeUI();
   }
 
   function toQuery(){ const p = new URLSearchParams(getState()); return p.toString(); }
@@ -1790,6 +1910,7 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     const nm = els.name.value && els.name.value.trim() ? els.name.value.trim() : 'Your cat';
     const span = document.getElementById('bcsName'); if(span) span.textContent = nm;
     if(els.catName4) els.catName4.textContent = nm;
+    updateSummaryModeUI();
   }
   
   // Helper to format a decimal value as a human-friendly fraction (e.g., 1.125 -> "1 1/8")
@@ -1940,7 +2061,30 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     els.foodType.addEventListener('input', ()=>{ updateFoodTypeInputs(); updateStep5MealPlanningFields(); calcAll(); updateStepVisibility(); });
     els.foodType.addEventListener('change', ()=>{ updateFoodTypeInputs(); updateStep5MealPlanningFields(); calcAll(); updateStepVisibility(); });
   }
+  if (els.calorieSummaryBtn) {
+    els.calorieSummaryBtn.addEventListener('click', function(){
+      const activate = !isCalorieOnlyMode();
+      setSummaryMode(activate ? 'calorie-only' : '');
+      updateStepVisibility();
+      calcAll();
+      const target = activate ? document.getElementById('step6') : document.getElementById('step4');
+      if (target && typeof target.scrollIntoView === 'function') {
+        target.scrollIntoView({ behavior:'smooth', block:'start' });
+      }
+    });
+  }
   els.shareBtn.addEventListener('click', async ()=>{
+    if (isCalorieOnlyMode()) {
+      setSummaryMode('');
+      updateStepVisibility();
+      calcAll();
+      const target = document.getElementById('step4');
+      if (target && typeof target.scrollIntoView === 'function') {
+        target.scrollIntoView({ behavior:'smooth', block:'start' });
+      }
+      showToast('Continue to meal planning');
+      return;
+    }
     const url = location.origin + location.pathname + '?' + toQuery();
     const ok = await safeClipboard(url);
     if(!ok){ window.prompt('Copy this link', url); }
@@ -1977,6 +2121,7 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
   updateStep5MealPlanningFields();
   updateStepVisibility();
   calcAll();
+  updateSummaryModeUI();
   // Autofill Step 5 wet amount if landing on page with wet-only (and not overridden and not loaded from query string)
   if (!(window._loadedFromQueryString)) {
     autofillWetAmountStep5();
@@ -1986,28 +2131,6 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
 
   // Progressive step visibility function, now supports vet mode toggle
   function updateStepVisibility() {
-    if (!PROGRESSIVE_MODE) {
-      // Vet Mode: all steps always visible, no progressive gating
-      document.getElementById('step1').style.display = '';
-      document.getElementById('step2').style.display = '';
-      document.getElementById('step3').style.display = '';
-      document.getElementById('step4').style.display = '';
-      document.getElementById('step5').style.display = '';
-      // Step 6: show if plan is valid or override is checked (wet-only)
-      const mealPlanVal = els.mealPlanKcal.value && Number(els.mealPlanKcal.value.replace(/[^\d.]/g, '')) > 0;
-      const planValid = document.body.getAttribute('data-plan-valid') === 'true';
-      let allowOverride = false;
-      if (overrideSummaryDiv && overrideSummaryDiv.style.display !== 'none' && overrideSummaryCheckbox && overrideSummaryCheckbox.checked) {
-        allowOverride = true;
-      }
-      document.getElementById('step6').style.display = mealPlanVal && (planValid || allowOverride) ? '' : 'none';
-      updateRequired();
-      return;
-    }
-    // Step 1: Always visible
-    document.getElementById('step1').style.display = '';
-
-    // Step 2: name, weight, lifeStage, activity required
     const name = els.name.value && els.name.value.trim();
     const weight = Number(els.weightInput.value) > 0;
     const ls = els.lifeStage.value;
@@ -2019,13 +2142,7 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     const bcs = els.bcs.value && Number(els.bcs.value) >= 1;
     const step3Ready = step2Ready && bcs;
     document.getElementById('step3').style.display = step3Ready ? '' : 'none';
-    document.getElementById('step4').style.display = step3Ready ? '' : 'none';
 
-    // Step 4 notes (only show after foodType is picked)
-    const step4Notes = document.getElementById('step4Notes');
-    if (step4Notes) step4Notes.style.display = els.foodType.value ? '' : 'none';
-
-    // Step 5: foodType and appropriate kcal(s)
     const foodType = els.foodType.value;
     const wetKcal = Number(els.wetKcal.value);
     const dryKcal = Number(els.dryKcal.value);
@@ -2033,6 +2150,62 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     if (foodType === 'wet' && wetKcal > 0) step5Ready = true;
     if (foodType === 'dry' && dryKcal > 0) step5Ready = true;
     if (foodType === 'both' && wetKcal > 0 && dryKcal > 0) step5Ready = true;
+    if (els.calorieSummaryBtn) {
+      els.calorieSummaryBtn.disabled = !step3Ready;
+    }
+    const calorieOnly = isCalorieOnlyMode();
+
+    if (!PROGRESSIVE_MODE) {
+      document.getElementById('step1').style.display = '';
+      document.getElementById('step2').style.display = '';
+      document.getElementById('step3').style.display = '';
+      if (calorieOnly) {
+        document.getElementById('step4').style.display = 'none';
+        document.getElementById('step5').style.display = 'none';
+        document.getElementById('step6').style.display = step3Ready ? '' : 'none';
+        updateRequired();
+        return;
+      }
+      document.getElementById('step4').style.display = '';
+      document.getElementById('step5').style.display = '';
+      const mealPlanVal = els.mealPlanKcal.value && Number(els.mealPlanKcal.value.replace(/[^\d.]/g, '')) > 0;
+      const planValid = document.body.getAttribute('data-plan-valid') === 'true';
+      let allowOverride = false;
+      if (overrideSummaryDiv && overrideSummaryDiv.style.display !== 'none' && overrideSummaryCheckbox && overrideSummaryCheckbox.checked) {
+        allowOverride = true;
+      }
+      document.getElementById('step6').style.display = mealPlanVal && (planValid || allowOverride) ? '' : 'none';
+      updateRequired();
+      return;
+    }
+
+    // Progressive mode
+    document.getElementById('step1').style.display = '';
+    document.getElementById('step2').style.display = step2Ready ? '' : 'none';
+    document.getElementById('step3').style.display = step3Ready ? '' : 'none';
+
+    if (!step3Ready) {
+      document.getElementById('step4').style.display = 'none';
+      document.getElementById('step5').style.display = 'none';
+      document.getElementById('step6').style.display = 'none';
+      updateRequired();
+      return;
+    }
+
+    if (calorieOnly) {
+      document.getElementById('step4').style.display = 'none';
+      document.getElementById('step5').style.display = 'none';
+      document.getElementById('step6').style.display = '';
+      updateRequired();
+      return;
+    }
+
+    document.getElementById('step4').style.display = '';
+    // Step 4 notes (only show after foodType is picked)
+    const step4Notes = document.getElementById('step4Notes');
+    if (step4Notes) step4Notes.style.display = els.foodType.value ? '' : 'none';
+
+    // Step 5: foodType and appropriate kcal(s)
     document.getElementById('step5').style.display = step5Ready && step3Ready ? '' : 'none';
 
     // Step 6: show if plan is valid or override is checked
