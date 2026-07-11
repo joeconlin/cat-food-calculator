@@ -257,6 +257,8 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, select:focus-visible 
   border-radius: 10px;
   box-shadow: 0 0 0 2px rgba(245,158,11,.18);
 }
+.app-footer{text-align:center;margin:26px 0 10px;font-size:.85rem}
+.app-footer a{color:#64748b}
 /* Consolidated print styles moved from index.html */
 @media print {
   /* Base font/background */
@@ -264,7 +266,7 @@ a:focus-visible, button:focus-visible, .btn:focus-visible, select:focus-visible 
   body { background: #fff !important; }
 
   /* Hide non-print content */
-  header, #step1, #step2, #step3, #step4, #step5, .toolbar, .btn, .illustration, details {
+  header, #step1, #step2, #step3, #step4, #step5, .toolbar, .btn, .illustration, details, .app-footer {
     display: none !important;
   }
 

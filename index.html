@@ -309,7 +309,7 @@
       body { background: #fff !important; }
 
       /* Hide non-print content */
-      header, #step1, #step2, #step3, #step4, #step5, .toolbar, .btn, .illustration, details {
+      header, #step1, #step2, #step3, #step4, #step5, .toolbar, .btn, .illustration, details, .app-footer {
         display: none !important;
       }
 
@@ -892,6 +892,9 @@
         </details>
       </section>
     </main>
+    <footer class="app-footer">
+      <a id="bugReportLink" href="mailto:team@catrepairwoman.com?subject=Cat%20Food%20Calculator%20bug%20report">Report a problem</a>
+    </footer>
   </div>
 
 <script>
@@ -2346,6 +2349,19 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     // Set initial button text
     updateVetModeBtnText();
   }
+
+  // Bug report link: attach the current share-link state so reports arrive
+  // with the exact inputs that reproduce the problem
+  const bugReportLink = document.getElementById('bugReportLink');
+  if (bugReportLink) {
+    bugReportLink.addEventListener('click', function(){
+      const share = location.origin + location.pathname + '?' + toQuery();
+      const body = 'Describe the problem:\n\n\n---\nCalculator state (auto-filled, please keep): ' + share;
+      bugReportLink.href = 'mailto:team@catrepairwoman.com'
+        + '?subject=' + encodeURIComponent('Cat Food Calculator bug report')
+        + '&body=' + encodeURIComponent(body);
+    });
+  }
 })();
 // Add print date to Step 6 summary header
 (function(){
@@ -2374,7 +2390,7 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
     window._mtm = window._mtm || []; 
     _mtm.push(evt); 
   }
-  ['copyBtn','shareBtn','printBtn'].forEach(function(id){
+  ['copyBtn','shareBtn','printBtn','bugReportLink'].forEach(function(id){
     var el = document.getElementById(id);
     if(el) el.addEventListener('click', function(){ push({event:'ui.action', action:id}); });
   });
