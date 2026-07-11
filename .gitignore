@@ -4,6 +4,15 @@
 # Editors
 .vscode/
 .idea/
+*.code-workspace
+
+# Local media / scratch files
+*.srt
+
+# Node / tests
+node_modules/
+test-results/
+playwright-report/
 
 # Builds and caches (add or remove as needed)
 dist/
