@@ -41,18 +41,71 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cat Food Calculator • Cat Repairwoman</title>
-  <meta property="og:image" content="logo.png">
+  <link rel="canonical" href="https://calc.catrepairwoman.com/">
+  <meta property="og:url" content="https://calc.catrepairwoman.com/">
+  <meta property="og:image" content="https://calc.catrepairwoman.com/calculator.png">
+  <meta property="og:image:width" content="775">
+  <meta property="og:image:height" content="775">
+  <meta property="og:image:alt" content="Cat Repairwoman Cat Food Calculator results preview">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@catrepairwoman">
+  <meta name="twitter:creator" content="@catrepairwoman">
   <meta property="og:type" content="website">
-  <meta property="og:description" content="Find the right amount to feed your cat at any life stage. Wet & dry food calculator with cups/Tbsp or grams.">
+  <meta property="og:description" content="Dr. Kara Caldwell’s mobile feeding calculator for cats. Track body condition scores, plan wet & dry calories, and print vet-ready plans for single or multi-cat households.">
   <meta property="og:title" content="Cat Food Calculator • Cat Repairwoman">
-  <meta name="description" content="Find the right amount to feed your cat at any life stage. Wet & dry food calculator with cups/Tbsp or grams. Cat Repairwoman." />
+  <meta name="twitter:title" content="Cat Food Calculator • Cat Repairwoman">
+  <meta name="description" content="Cat-only veterinarian Dr. Kara Caldwell’s feeding calculator covers body condition scores, safe weight loss timelines, and printable wet & dry meal plans for multi-cat households." />
+  <meta name="twitter:description" content="Dr. Kara Caldwell’s cat food calculator tracks body condition scores, wet & dry calories, and printable feeding plans for single or multi-cat homes.">
+  <meta name="author" content="Dr. Kara Caldwell, Cat Repairwoman">
+  <meta name="twitter:image" content="https://calc.catrepairwoman.com/calculator.png">
   <link rel="preload" as="image" href="logo.png">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,400,0,0" />
   <meta name="theme-color" content="#0f172a">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Cat Food Calculator",
+    "description": "Cat-only veterinarian Dr. Kara Caldwell’s mobile feeding calculator covers body condition score tracking, safe weight loss pacing, and printable wet/dry plans for single or multi-cat households.",
+    "url": "https://calc.catrepairwoman.com/",
+    "applicationCategory": "LifestyleApplication",
+    "operatingSystem": "Web",
+    "image": "https://calc.catrepairwoman.com/calculator.png",
+    "author": {
+      "@type": "Person",
+      "name": "Dr. Kara Caldwell",
+      "jobTitle": "Cat-only Veterinarian",
+      "description": "Connecticut-based feline veterinarian helping pet parents manage healthy weight loss and feeding routines.",
+      "sameAs": [
+        "https://catrepairwoman.com",
+        "https://youtu.be/HrGvZcJlQgc"
+      ]
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Cat Repairwoman",
+      "url": "https://catrepairwoman.com"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Body condition score guidance from a feline-only veterinarian",
+      "Wet and dry food calorie planner for multi-cat households",
+      "Printable and shareable feeding summaries for veterinary check-ins"
+    ],
+    "sameAs": [
+      "https://youtube.com/@catrepairwoman",
+      "https://youtu.be/HrGvZcJlQgc"
+    ]
+  }
+  </script>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 <!-- External CSS (extracted non-critical styles) -->
   <link rel="preload" href="extra.css" as="style">
@@ -330,6 +383,22 @@
     .card.input{background:var(--input-bg)}
     .card.factor{background:var(--factor-bg)}
     .card.result{background:#fff;border-left:6px solid var(--result-border)}
+    .card.info{background:#fff;border-color:#e2e8f0}
+    .card.info details{margin:0}
+    .card.info summary{cursor:pointer;list-style:none;font-size:.95rem;font-weight:600;color:#0f172a;display:flex;align-items:center;gap:8px}
+    .card.info summary::after{content:"▾";font-size:.8rem;color:#475569;transition:transform .2s ease}
+    .card.info details[open] summary::after{transform:rotate(-180deg)}
+    .card.info summary::-webkit-details-marker{display:none}
+    .card.info p,.card.info ul{font-size:.88rem;line-height:1.5;color:#374151}
+    .faq h3{font-size:.95rem;margin:16px 0 6px;font-weight:600}
+    .icon-inline{
+      font-family:'Material Symbols Outlined';
+      font-size:1rem;
+      line-height:1;
+      color:#475569;
+      font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 20;
+    }
+    .faq p{margin:0 0 14px;font-size:.98rem;line-height:1.5}
     .section-title{display:flex;align-items:center;gap:10px;font-size:1.05rem;margin:0 0 10px}
     .step{color:#111;background:#fde68a;border-radius:999px;padding:2px 10px;font-size:.88rem;border:1px solid #fbbf24;white-space:nowrap}
     .badge{display:inline-block;border-radius:999px;font-size:.72rem;line-height:1;border:1px solid var(--border);padding:4px 8px;margin-left:8px;color:#374151}
@@ -530,16 +599,17 @@
         <div class="brand-title">
           <h1>Cat Food Calculator</h1>
           <div class="sub">
-            Find the right amount to feed for any life stage
-            <span style="display:inline-flex;align-items:center;gap:6px">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-              <a href="https://catrepairwoman.com" target="_blank" rel="noopener">catrepairwoman.com</a>
-            </span>
-            •
-            <span style="display:inline-flex;align-items:center;gap:6px">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.4 3.5 12 3.5 12 3.5s-7.4 0-9.4.6A3 3 0 0 0 .5 6.2 31.5 31.5 0 0 0 0 12a31.5 31.5 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c2 .6 9.4.6 9.4.6s7.4 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.5 31.5 0 0 0 24 12a31.5 31.5 0 0 0-.5-5.8ZM9.6 15.5V8.5L15.8 12l-6.2 3.5Z"/></svg>
-              <a id="ytLink" href="#" target="_blank" rel="noopener">@catrepairwoman</a>
-            </span>
+            <span class="subtitle">Vet-built feeding calculator for any life stage</span>
+            <div class="sub-links" role="navigation" aria-label="Cat Repairwoman links">
+              <a class="sub-link" href="https://catrepairwoman.com" target="_blank" rel="noopener">
+                <span class="material-symbols-outlined icon-inline" aria-hidden="true">public</span>
+                catrepairwoman.com
+              </a>
+              <a class="sub-link" id="ytLink" href="#" target="_blank" rel="noopener">
+                <span class="material-symbols-outlined icon-inline" aria-hidden="true">subscriptions</span>
+                How much to feed your cat
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -794,6 +864,33 @@
           <button type="button" class="btn" id="printBtn" title="Print page" aria-label="Print plan">Print</button>
         </div>
       </section>
+
+      <section class="card info" id="aboutCalculator">
+        <details>
+          <summary class="section-title">About this calculator</summary>
+          <p>Dr. Kara Caldwell built this feline calorie calculator around the Resting Energy Requirement (RER) formula plus AAHA/AAFP life-stage factors, so you can go from weight + body condition score to daily kcal in one screen.</p>
+          <p>Bookmark <a href="https://calc.catrepairwoman.com" target="_blank" rel="noopener">calc.catrepairwoman.com</a> for mobile use and watch the companion video for label tips: <a href="https://youtu.be/HrGvZcJlQgc" target="_blank" rel="noopener">Cat Feeding Calculator explainer</a>.</p>
+          <ul>
+            <li>Double-check kcal per can/cup before applying the plan.</li>
+            <li>Track body condition every 2&nbsp;weeks with a chart such as <a href="https://www.petobesityprevention.org/catbcs" target="_blank" rel="noopener">Pet Obesity Prevention</a>.</li>
+            <li>Reduce calories no more than 15–20% per month and loop in your veterinarian if weight stalls.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section class="card info" id="feedingFaq">
+        <details>
+          <summary class="section-title">Cat feeding FAQ</summary>
+          <div class="faq">
+            <h3>How do I find kcal on cat food?</h3>
+            <p>Use the guaranteed analysis panel; enter the value listed as &ldquo;kcal per can/cup.&rdquo; Match that label unit in Step&nbsp;4 and the calculator converts to cups, Tbsp, or grams.</p>
+            <h3>Can I mix brands or protein types?</h3>
+            <p>Yes. Choose &ldquo;Both Wet &amp; Dry,&rdquo; add each food&rsquo;s kcal, then split calories in Step&nbsp;5. Use the lowest-kcal product as your baseline if you rotate recipes.</p>
+            <h3>When should I call the vet?</h3>
+            <p>Before any weight-loss program and immediately if appetite drops for 24&nbsp;hours, or if your cat has diabetes, kidney disease, is pregnant, or under 12 months (see the <a href="https://wsava.org/global-guidelines/global-nutrition-guidelines/" target="_blank" rel="noopener">WSAVA guidelines</a>).</p>
+          </div>
+        </details>
+      </section>
     </main>
   </div>
 
@@ -825,7 +922,7 @@
       calcAll();
     });
   }
-  const YT_URL = 'https://youtube.com/@catrepairwoman';
+  const YT_URL = 'https://youtu.be/HrGvZcJlQgc';
   let PROGRESSIVE_MODE = true;
   let SUMMARY_MODE = '';
   const SETTINGS = {
@@ -837,7 +934,11 @@
     MAX_WET_UNITS: 5,          // Max wet units in UI
     MAX_DRY_UNITS: 5           // Max dry units in UI
   };
-  const ytA = document.getElementById('ytLink'); ytA.href = YT_URL; ytA.textContent = '@catrepairwoman';
+  const ytA = document.getElementById('ytLink');
+  if (ytA) {
+    ytA.href = YT_URL;
+    ytA.textContent = 'How much to feed your cat';
+  }
   const $ = id => document.getElementById(id);
   const els = {
     name: $('name'), lifeStage: $('lifeStage'), activity: $('activity'), weightUnit: $('weightUnit'), weightInput: $('weightInput'),
@@ -2266,9 +2367,6 @@ if(subheading) subheading.innerHTML = `Enter the amount of <strong>${foodTypeLab
   });
 })();
 </script>
-
-<script type="text/javascript" src="/unprotected/back_to_spaceship.js?hash=4975d460e508829e8fb64d3962bc44ad35f3a95a"></script>
-
 
 <script>
 (function(){

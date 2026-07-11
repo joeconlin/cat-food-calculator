@@ -1,0 +1,9104 @@
+{
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.20MER: 299 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.20MER: 299 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.20MER: 299 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.20MER: 299 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.20MER: 299 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=neutered_adult&activity=active&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1MER: 249 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=inactive&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.40MER: 349 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.40MER: 349 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.40MER: 349 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.40MER: 349 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 1.40MER: 349 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=intact_adult&activity=active&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 0.80MER: 200 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=kitten&activity=active&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2.50MER: 624 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=inactive&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=1": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=2": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=3": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=4": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=5": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=8": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=12&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=9": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.44 kg (12 lb)RER: 249 kcal/dayFactor: 2MER: 499 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.24–0.48 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=2&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 0.91 kg (2 lb)RER: 65 kcal/dayFactor: 0.80MER: 52 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.04–0.08 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=4&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 1.81 kg (4 lb)RER: 109 kcal/dayFactor: 0.80MER: 88 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.08–0.16 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=6&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 2.72 kg (6 lb)RER: 148 kcal/dayFactor: 0.80MER: 119 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.12–0.24 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=8&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 3.63 kg (8 lb)RER: 184 kcal/dayFactor: 0.80MER: 147 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.16–0.32 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=10&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.54 kg (10 lb)RER: 218 kcal/dayFactor: 0.80MER: 174 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.20–0.40 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=14&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 6.35 kg (14 lb)RER: 280 kcal/dayFactor: 0.80MER: 224 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.28–0.56 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=18&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 8.16 kg (18 lb)RER: 338 kcal/dayFactor: 0.80MER: 270 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.36–0.72 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=25&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 11.34 kg (25 lb)RER: 433 kcal/dayFactor: 0.80MER: 346 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.50–1 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=1.5&weightUnit=kg&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 1.50 kg (3.31 lb)RER: 95 kcal/dayFactor: 0.80MER: 76 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.03–0.06 kg.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=2.5&weightUnit=kg&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 2.50 kg (5.51 lb)RER: 139 kcal/dayFactor: 0.80MER: 111 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.05–0.10 kg.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=4&weightUnit=kg&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4 kg (8.82 lb)RER: 198 kcal/dayFactor: 0.80MER: 158 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.08–0.16 kg.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=5.5&weightUnit=kg&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 5.50 kg (12.13 lb)RER: 251 kcal/dayFactor: 0.80MER: 201 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.11–0.22 kg.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=7&weightUnit=kg&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 7 kg (15.43 lb)RER: 301 kcal/dayFactor: 0.80MER: 241 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.14–0.28 kg.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=9&weightUnit=kg&lifeStage=neutered_adult&activity=inactive&bcs=7": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 9 kg (19.84 lb)RER: 364 kcal/dayFactor: 0.80MER: 291 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.18–0.36 kg.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=Socks&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=6": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "Adjust Meal Plan in Step 5 to better match target",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for Socks is 0.22–0.44 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=wet&wetKcal=70&wetUnit=can": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "184",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "cans",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "2.625",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 2.63 cans of Wet Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=wet&wetKcal=70&wetUnit=pouch": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "184",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "pouches",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "2.625",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 2.63 pouches of Wet Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=wet&wetKcal=95&wetUnit=can": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "190",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "cans",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "2",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 2 cans of Wet Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=wet&wetKcal=95&wetUnit=pouch": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "190",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "pouches",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "2",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 2 pouches of Wet Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=wet&wetKcal=180&wetUnit=can": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "180",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "can",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "1",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. Please review this plan with your veterinarian. 🍽️ Feeding Plan: 1 can of Wet Food daily.",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "⚠️ Close to target (±5%). Review with your vet.",
+   "visible": true
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=wet&wetKcal=180&wetUnit=pouch": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "180",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "pouch",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "1",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. Please review this plan with your veterinarian. 🍽️ Feeding Plan: 1 pouch of Wet Food daily.",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": false
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "⚠️ Close to target (±5%). Review with your vet.",
+   "visible": true
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=wet&wetKcal=78&wetUnit=can&wetAmountSel=1.5": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "185",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "cans",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "2.375",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 2.38 cans of Wet Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=dry&dryKcal=320&dryBasis=cup": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/2 cups + 1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "0.58",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/2 cups + 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=dry&dryKcal=350&dryBasis=cup": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/2 cups + 1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "0.53",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/2 cups + 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=dry&dryKcal=410&dryBasis=cup": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/3 cups + 2 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "0.46",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/3 cups + 2 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=dry&dryKcal=3500&dryBasis=kg": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "186",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "53 grams",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "grams",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "0.05",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 53 grams of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=70&wetUnit=can&dryKcal=350&dryBasis=cup": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/2 cups + 1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/2 cups + 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=70&wetUnit=can&dryKcal=400&dryBasis=cup": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/3 cups + 2 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/3 cups + 2 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=90&wetUnit=can&dryKcal=350&dryBasis=cup": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/2 cups + 1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/2 cups + 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=90&wetUnit=can&dryKcal=400&dryBasis=cup": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/3 cups + 2 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/3 cups + 2 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=78&wetUnit=can&dryKcal=380&dryBasis=cup&wetAmountSel=0": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/2 cups",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1/2 cups of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=78&wetUnit=can&dryKcal=380&dryBasis=cup&wetAmountSel=0.5": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/3 cups + 1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "cans",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0.5",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 0.50 cans of Wet Food and 1/3 cups + 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=78&wetUnit=can&dryKcal=380&dryBasis=cup&wetAmountSel=1": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/4 cups + 1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "can",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "1",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 1 can of Wet Food and 1/4 cups + 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&foodType=both&wetKcal=78&wetUnit=can&dryKcal=380&dryBasis=cup&wetAmountSel=2": {
+  "merKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "187",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "cans",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "2",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 7 (Overweight). 🔻 GoldenCat needs to lose weight by eating 187 calories daily. 🍽️ Feeding Plan: 2 cans of Wet Food and 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=5&foodType=both&wetKcal=78&wetUnit=can&dryKcal=380&dryBasis=cup": {
+  "merKcal": {
+   "value": "234",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "234",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/2 cups + 2 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 1MER: 234 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 5 (Ideal). 🟢 GoldenCat needs to maintain weight by eating 234 calories daily. 🍽️ Feeding Plan: 1/2 cups + 2 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=3&foodType=both&wetKcal=78&wetUnit=can&dryKcal=380&dryBasis=cup": {
+  "merKcal": {
+   "value": "234",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "234",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "1/2 cups + 2 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 1MER: 234 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Neutered Adult with an Inactive/Obese Prone lifestyle and Body Condition Score of 3 (Thin). 🔺 GoldenCat needs to gain weight by eating 234 calories daily. 🍽️ Feeding Plan: 1/2 cups + 2 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=4&weightUnit=lb&lifeStage=kitten&activity=inactive&bcs=5&foodType=both&wetKcal=78&wetUnit=can&dryKcal=380&dryBasis=cup": {
+  "merKcal": {
+   "value": "274",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "274",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "2/3 cups + 1 Tbsp",
+   "visible": true
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 1.81 kg (4 lb)RER: 109 kcal/dayFactor: 2.50MER: 274 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Growing Kitten with an Inactive/Obese Prone lifestyle and Body Condition Score of 5 (Ideal). 🟢 GoldenCat needs to maintain weight by eating 274 calories daily. 🍽️ Feeding Plan: 2/3 cups + 1 Tbsp of Dry Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=pregnant&activity=active&bcs=5&foodType=wet&wetKcal=95&wetUnit=can": {
+  "merKcal": {
+   "value": "467",
+   "visible": true
+  },
+  "mealPlanKcal": {
+   "value": "463",
+   "visible": true
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "cans",
+   "visible": true
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "4.875",
+   "visible": true
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 2MER: 467 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": true
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": true
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "🐈 GoldenCat is a Pregnant with an Active lifestyle and Body Condition Score of 5 (Ideal). 🟢 GoldenCat needs to maintain weight by eating 467 calories daily. 🍽️ Feeding Plan: 4.88 cans of Wet Food daily.",
+   "visible": true
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "",
+   "visible": false
+  },
+  "lossNote": {
+   "text": "",
+   "visible": false
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ },
+ "name=GoldenCat&weightInput=11&weightUnit=lb&lifeStage=neutered_adult&activity=inactive&bcs=7&summaryMode=calorie-only": {
+  "merKcal": {
+   "value": "",
+   "visible": false
+  },
+  "mealPlanKcal": {
+   "value": "",
+   "visible": false
+  },
+  "dryOut": {
+   "value": "",
+   "visible": false
+  },
+  "wetUnitsOut": {
+   "value": "",
+   "visible": false
+  },
+  "dryUnitsOut": {
+   "value": "cups",
+   "visible": false
+  },
+  "dryAmountCalc": {
+   "value": "",
+   "visible": false
+  },
+  "wetAmountSel": {
+   "value": "0",
+   "visible": false
+  },
+  "factorBanner": {
+   "text": "",
+   "visible": false
+  },
+  "merPillbar": {
+   "text": "",
+   "visible": true
+  },
+  "kpiRer": {
+   "text": "Weight: 4.99 kg (11 lb)RER: 234 kcal/dayFactor: 0.80MER: 187 kcal/day",
+   "visible": true
+  },
+  "merDelta": {
+   "text": "",
+   "visible": false
+  },
+  "kpiDiff": {
+   "text": "",
+   "visible": false
+  },
+  "feedHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedLine": {
+   "text": "",
+   "visible": false
+  },
+  "feedPlanHeading": {
+   "text": "",
+   "visible": true
+  },
+  "feedPlanList": {
+   "text": "",
+   "visible": true
+  },
+  "calorieCallout": {
+   "text": "Recommended daily calories: 187 kcal/day",
+   "visible": true
+  },
+  "lossNote": {
+   "text": "🧡 Safe monthly weight-loss is 2–4% of bodyweight, which for GoldenCat is 0.22–0.44 lb.",
+   "visible": true
+  },
+  "step5Warn": {
+   "text": "",
+   "visible": false
+  },
+  "weightHint": {
+   "text": "",
+   "visible": false
+  }
+ }
+}

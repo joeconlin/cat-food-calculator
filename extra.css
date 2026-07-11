@@ -24,6 +24,11 @@ a:hover{text-decoration:underline}
 header { display: flex; flex-direction: column; align-items: center; gap: 0; margin-bottom: 18px; padding-bottom: 10px; position: relative; }
 .brand h1{text-align:left}
 .brand .sub{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-start;gap:8px}
+.brand .sub .subtitle{flex-basis:100%;font-size:1rem;color:#475569}
+.brand .sub-links{display:flex;flex-wrap:wrap;gap:10px}
+.brand .sub-link{display:inline-flex;align-items:center;gap:6px;font-size:.95rem;color:#2563eb;text-decoration:none;font-weight:600}
+.brand .sub-link:hover{text-decoration:underline}
+.brand .sub-link .icon-inline{font-size:1.1rem}
 h1{font-size:2.2rem;margin:0;font-weight:700;letter-spacing:.01em}
 h1,.section-title,label{font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
 .section-title{font-weight:700}
@@ -136,6 +141,9 @@ input[type=number]{appearance:textfield}
   .brand { flex-direction: column; align-items: center; text-align: center; }
   .brand-title { align-items: center !important; text-align: center !important; width: 100% !important; }
   .brand-title h1 { text-align: center !important; width: 100% !important; margin-left: 0 !important; margin-right: 0 !important; }
+  .brand .sub{flex-direction:column;gap:12px}
+  .brand .sub-links{width:100%;flex-direction:column;align-items:center}
+  .brand .sub-link{font-size:1rem}
 }
 .name-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:end}
 @media(max-width:720px){.name-row{grid-template-columns:1fr 1fr}}

@@ -1,0 +1,29 @@
+{
+  "name": "cat-food-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "playwright test",
+    "test:golden": "playwright test golden-master",
+    "test:visual": "playwright test visual",
+    "golden:update": "UPDATE_GOLDEN=1 playwright test golden-master",
+    "visual:update": "playwright test visual --update-snapshots"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeconlin/cat-food-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joeconlin/cat-food-calculator/issues"
+  },
+  "homepage": "https://github.com/joeconlin/cat-food-calculator#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "sharp": "^0.35.3"
+  },
+  "private": true
+}
